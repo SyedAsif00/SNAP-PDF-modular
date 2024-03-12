@@ -1,0 +1,336 @@
+ Hearing    {'/T': ' Hearing', '/FT': '/Btn', '/TU': ' Hearing'}
+ Visual    {'/T': ' Visual', '/FT': '/Btn', '/TU': ' Visual'}
+ EmotionalMental Health    {'/T': ' EmotionalMental Health', '/FT': '/Btn', '/TU': ' Emotional/Mental Health'}
+ Other    {'/T': ' Other', '/FT': '/Btn', '/TU': ' Other', '/AA': {}}
+ InPerson    {'/T': ' InPerson', '/FT': '/Btn', '/TU': ' In-Person'}
+ Telephone    {'/T': ' Telephone', '/FT': '/Btn', '/TU': ' Telephone'}
+ Video Relay Services VRS    {'/T': ' Video Relay Services VRS', '/FT': '/Btn', '/TU': ' Video Relay Services (VRS'}
+VRS Phone Number    {'/T': 'VRS Phone Number', '/FT': '/Tx', '/TU': 'VRS Phone Number', '/Ff': 12582912, '/AA': {'/F': IndirectObject(884, 0, 2210299022416), '/K': IndirectObject(879, 0, 2210299022416)}}
+Social Security Number    {'/T': 'Social Security Number', '/FT': '/Tx', '/TU': 'Social Security Number:', '/Ff': 12582912, '/AA': {'/F': IndirectObject(929, 0, 2210299022416), '/K': IndirectObject(949, 0, 2210299022416)}}
+Date of Birth    {'/T': 'Date of Birth', '/FT': '/Tx', '/TU': 'Date of Birth:', '/Ff': 12582912, '/AA': {'/F': IndirectObject(888, 0, 2210299022416), '/K': IndirectObject(946, 0, 2210299022416)}}
+What language do you prefer to speak    {'/T': 'What language do you prefer to speak', '/FT': '/Tx', '/TU': 'What language do you prefer to speak?', '/Ff': 8388608}
+Heat oil gas electricity or propane etc    {'/T': 'Heat oil gas electricity or propane etc', '/FT': '/Btn', '/TU': 'Heat (oil, gas, electricity or propane, etc'}
+Electricity for an air conditioner in the summer    {'/T': 'Electricity for an air conditioner in the summer', '/FT': '/Btn', '/TU': 'Electricity for an air conditioner in the summer'}
+A fee to use an air conditioner in the summer    {'/T': 'A fee to use an air conditioner in the summer', '/FT': '/Btn', '/TU': 'A fee to use an air conditioner in the summer'}
+Electricity andor gas other than heating use    {'/T': 'Electricity andor gas other than heating use', '/FT': '/Btn', '/TU': 'Electricity and/or gas (other than heating use'}
+Phone or cell phone service including prepaid    {'/T': 'Phone or cell phone service including prepaid', '/FT': '/Btn', '/TU': 'Phone or cell phone service (including pre-paid'}
+Medical Care_3    {'/T': 'Medical Care_3', '/FT': '/Btn', '/TU': 'Medical Care'}
+Dental Care_3    {'/T': 'Dental Care_3', '/FT': '/Btn', '/TU': 'Dental Care'}
+Medications_3    {'/T': 'Medications_3', '/FT': '/Btn', '/TU': 'Medications'}
+Health Insurance_3    {'/T': 'Health Insurance_3', '/FT': '/Btn', '/TU': 'Health Insurance'}
+Pay stubs or record of payment    {'/T': 'Pay stubs or record of payment', '/FT': '/Btn', '/TU': 'Pay stubs, or record of payment'}
+Proof of any pay you got and hours worked    {'/T': 'Proof of any pay you got and hours worked', '/FT': '/Btn', '/TU': 'Proof of any pay you got and hours worked'}
+If selfemployed business documents that show income and business expenses such as    {'/T': 'If selfemployed business documents that show income and business expenses such as', '/FT': '/Btn', '/TU': 'If self-employed, business documents that show income and business expenses, such as'}
+Schedule C 1040 IRS form    {'/T': 'Schedule C 1040 IRS form', '/FT': '/Btn', '/TU': 'Schedule C (1040 IRS form'}
+1099 IRS form or other tax record    {'/T': '1099 IRS form or other tax record', '/FT': '/Btn', '/TU': '1099 IRS form or other tax record'}
+Other records such as invoices bills or receipts that show your income andor business expenses    {'/T': 'Other records such as invoices bills or receipts that show your income andor business expenses', '/FT': '/Btn', '/TU': 'Other records such as invoices, bills, or receipts that show your income and/or business expenses'}
+If anyone in the household has unearned income send us proof of the monthly amount such as    {'/T': 'If anyone in the household has unearned income send us proof of the monthly amount such as', '/FT': '/Btn', '/TU': 'If anyone in the household has unearned income, send us proof of the monthly amount, such as'}
+Benefit or award letter    {'/T': 'Benefit or award letter', '/FT': '/Btn', '/TU': 'Benefit or award letter'}
+Statement from agency making payments    {'/T': 'Statement from agency making payments', '/FT': '/Btn', '/TU': 'Statement from agency making payments'}
+To prove Massachusetts residency you may submit one of the following    {'/T': 'To prove Massachusetts residency you may submit one of the following', '/FT': '/Btn', '/TU': 'To prove Massachusetts residency, you may submit one of the following'}
+Rent receipt lease or Landlord Verification form    {'/T': 'Rent receipt lease or Landlord Verification form', '/FT': '/Btn', '/TU': 'Rent receipt, lease, or Landlord Verification form'}
+Deed or mortgage statement utility bill or voter registration    {'/T': 'Deed or mortgage statement utility bill or voter registration', '/FT': '/Btn', '/TU': 'Deed or mortgage statement, utility bill, or voter registration'}
+Shared Housing Verification form or statement from someone you live with    {'/T': 'Shared Housing Verification form or statement from someone you live with', '/FT': '/Btn', '/TU': 'Shared Housing Verification form, or statement from someone you live with'}
+If anyone in the household is making payments for child support please send us    {'/T': 'If anyone in the household is making payments for child support please send us', '/FT': '/Btn', '/TU': 'If anyone in the household is making payments for child support, please send us'}
+Proof of the legal obligation to pay the child support such as a court order and    {'/T': 'Proof of the legal obligation to pay the child support such as a court order and', '/FT': '/Btn', '/TU': 'Proof of the legal obligation to pay the child support (such as a court order) and'}
+Proof of recent payments    {'/T': 'Proof of recent payments', '/FT': '/Btn', '/TU': 'Proof of recent payments'}
+If any household member is a noncitizen applying for benefits please submit proof of noncitizen status such as    {'/T': 'If any household member is a noncitizen applying for benefits please submit proof of noncitizen status such as', '/FT': '/Btn', '/TU': 'If any household member is a noncitizen applying for benefits, please submit proof of noncitizen status, such as'}
+Permanent Resident Card green card    {'/T': 'Permanent Resident Card green card', '/FT': '/Btn', '/TU': 'Permanent Resident Card (“green card'}
+Employment Authorization Card    {'/T': 'Employment Authorization Card', '/FT': '/Btn', '/TU': 'Employment Authorization Card'}
+Temporary Resident Card    {'/T': 'Temporary Resident Card', '/FT': '/Btn', '/TU': 'Temporary Resident Card'}
+ArrivalDeparture Record I94    {'/T': 'ArrivalDeparture Record I94', '/FT': '/Btn', '/TU': 'Arrival-Departure Record (I-94'}
+Stamp in passport    {'/T': 'Stamp in passport', '/FT': '/Btn', '/TU': 'Stamp in passport'}
+Other document showing current or pending immigration status    {'/T': 'Other document showing current or pending immigration status', '/FT': '/Btn', '/TU': 'Other document showing current or pending immigration status'}
+Statement from an immigration attorney about current or pending status    {'/T': 'Statement from an immigration attorney about current or pending status', '/FT': '/Btn', '/TU': 'Statement from an immigration attorney about current or pending status'}
+Are you homeless?    {'/T': 'Are you homeless?', '/FT': '/Btn', '/TU': 'Are you homeless?', '/Ff': 49152, '/Kids': [IndirectObject(3850, 0, 2210299022416), IndirectObject(3855, 0, 2210299022416)]}
+If you do not want DTA to text you, please check this box    {'/T': 'If you do not want DTA to text you, please check this box', '/FT': '/Btn', '/TU': 'If you do not want DTA to text you, please check this box'}
+Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?    {'/T': 'Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?', '/FT': '/Btn', '/TU': 'Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?', '/Ff': 49152, '/Kids': [IndirectObject(862, 0, 2210299022416), IndirectObject(869, 0, 2210299022416)]}
+Other:    {'/T': 'Other:', '/FT': '/Tx', '/TU': 'Please describe your impairment type:', '/Ff': 37752832}
+Has Massachusetts certified that you have a disability?    {'/T': 'Has Massachusetts certified that you have a disability?', '/FT': '/Btn', '/TU': 'Has Massachusetts certified that you have a disability?', '/Ff': 49152, '/Kids': [IndirectObject(873, 0, 2210299022416), IndirectObject(875, 0, 2210299022416)]}
+Are you pregnant?    {'/T': 'Are you pregnant?', '/FT': '/Btn', '/TU': 'Are you pregnant?', '/Ff': 49152, '/Kids': [IndirectObject(958, 0, 2210299022416), IndirectObject(892, 0, 2210299022416)]}
+ Citizen?    {'/T': ' Citizen?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1399, 0, 2210299022416)], '/Parent': IndirectObject(1367, 0, 2210299022416), '/T': 'S'}, '/TU': 'Are you a U.S. Citizen?', '/Ff': 49152, '/Kids': [IndirectObject(957, 0, 2210299022416), IndirectObject(890, 0, 2210299022416)]}
+S    {'/T': 'S', '/Parent': {'/Kids': [IndirectObject(1393, 0, 2210299022416)], '/T': 'Is this person  U'}, '/Kids': [IndirectObject(1394, 0, 2210299022416), IndirectObject(1395, 0, 2210299022416), IndirectObject(1396, 0, 2210299022416), IndirectObject(1397, 0, 2210299022416)]}
+Are you a U    {'/T': 'Are you a U', '/Kids': [IndirectObject(1398, 0, 2210299022416)]}
+Do you live with other people?    {'/T': 'Do you live with other people?', '/FT': '/Btn', '/TU': 'Do you live with other people?', '/Ff': 49152, '/Kids': [IndirectObject(897, 0, 2210299022416), IndirectObject(893, 0, 2210299022416)]}
+Household member name1    {'/T': 'Household member name1', '/FT': '/Tx', '/TU': 'Household member name1', '/Ff': 4194304}
+Household member name2    {'/T': 'Household member name2', '/FT': '/Tx', '/TU': 'Household member name2', '/Ff': 4194304}
+Household member name3    {'/T': 'Household member name3', '/FT': '/Tx', '/TU': 'Household member name3', '/Ff': 4194304}
+Household member name4    {'/T': 'Household member name4', '/FT': '/Tx', '/TU': 'Household member name4', '/Ff': 12582912}
+Date of Birth1    {'/T': 'Date of Birth1', '/FT': '/Tx', '/TU': 'Date of Birth1', '/Ff': 12582912, '/AA': {'/F': IndirectObject(952, 0, 2210299022416), '/K': IndirectObject(940, 0, 2210299022416)}}
+Date of Birth2    {'/T': 'Date of Birth2', '/FT': '/Tx', '/TU': 'Date of Birth2', '/Ff': 4194304, '/AA': {'/F': IndirectObject(939, 0, 2210299022416), '/K': IndirectObject(942, 0, 2210299022416)}}
+Date of Birth3    {'/T': 'Date of Birth3', '/FT': '/Tx', '/TU': 'Date of Birth3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(941, 0, 2210299022416), '/K': IndirectObject(944, 0, 2210299022416)}}
+Date of Birth4    {'/T': 'Date of Birth4', '/FT': '/Tx', '/TU': 'Date of Birth4', '/Ff': 12582912, '/AA': {'/F': IndirectObject(950, 0, 2210299022416), '/K': IndirectObject(945, 0, 2210299022416)}}
+Social Security Number1    {'/T': 'Social Security Number1', '/FT': '/Tx', '/TU': 'Social Security Number1', '/Ff': 12582912, '/AA': {'/F': IndirectObject(948, 0, 2210299022416), '/K': IndirectObject(935, 0, 2210299022416)}}
+Social Security Number2    {'/T': 'Social Security Number2', '/FT': '/Tx', '/TU': 'Social Security Number2', '/Ff': 12582912, '/AA': {'/F': IndirectObject(951, 0, 2210299022416), '/K': IndirectObject(943, 0, 2210299022416)}}
+Social Security Number3    {'/T': 'Social Security Number3', '/FT': '/Tx', '/TU': 'Social Security Number3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(938, 0, 2210299022416), '/K': IndirectObject(947, 0, 2210299022416)}}
+Social Security Number4    {'/T': 'Social Security Number4', '/FT': '/Tx', '/TU': 'Social Security Number4', '/Ff': 12582912, '/AA': {'/F': IndirectObject(936, 0, 2210299022416), '/K': IndirectObject(937, 0, 2210299022416)}}
+Relationship to you1    {'/T': 'Relationship to you1', '/FT': '/Tx', '/TU': 'Relationship to you1', '/Ff': 12582912}
+Relationship to you2    {'/T': 'Relationship to you2', '/FT': '/Tx', '/TU': 'Relationship to you2', '/Ff': 12582912}
+Relationship to you3    {'/T': 'Relationship to you3', '/FT': '/Tx', '/TU': 'Relationship to you3', '/Ff': 12582912}
+Relationship to you4    {'/T': 'Relationship to you4', '/FT': '/Tx', '/TU': 'Relationship to you4', '/Ff': 12582912}
+ Citizen1?    {'/T': ' Citizen1?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1394, 0, 2210299022416), IndirectObject(1395, 0, 2210299022416), IndirectObject(1396, 0, 2210299022416), IndirectObject(1397, 0, 2210299022416)], '/Parent': IndirectObject(1369, 0, 2210299022416), '/T': 'S'}, '/TU': 'Is this person  U.S. Citizen1?', '/Ff': 49152, '/Kids': [IndirectObject(909, 0, 2210299022416), IndirectObject(915, 0, 2210299022416)]}
+ Citizen2?    {'/T': ' Citizen2?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1394, 0, 2210299022416), IndirectObject(1395, 0, 2210299022416), IndirectObject(1396, 0, 2210299022416), IndirectObject(1397, 0, 2210299022416)], '/Parent': IndirectObject(1369, 0, 2210299022416), '/T': 'S'}, '/TU': 'Is this person  U.S. Citizen2?', '/Ff': 49152, '/Kids': [IndirectObject(899, 0, 2210299022416), IndirectObject(921, 0, 2210299022416)]}
+ Citizen3?    {'/T': ' Citizen3?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1394, 0, 2210299022416), IndirectObject(1395, 0, 2210299022416), IndirectObject(1396, 0, 2210299022416), IndirectObject(1397, 0, 2210299022416)], '/Parent': IndirectObject(1369, 0, 2210299022416), '/T': 'S'}, '/TU': 'Is this person  U.S. Citizen3?', '/Ff': 49152, '/Kids': [IndirectObject(904, 0, 2210299022416), IndirectObject(917, 0, 2210299022416)]}
+ Citizen4?    {'/T': ' Citizen4?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1394, 0, 2210299022416), IndirectObject(1395, 0, 2210299022416), IndirectObject(1396, 0, 2210299022416), IndirectObject(1397, 0, 2210299022416)], '/Parent': IndirectObject(1369, 0, 2210299022416), '/T': 'S'}, '/TU': 'Is this person  U.S. Citizen4?', '/Ff': 49152, '/Kids': [IndirectObject(923, 0, 2210299022416), IndirectObject(914, 0, 2210299022416)]}
+Is this person  U    {'/T': 'Is this person  U', '/Kids': [IndirectObject(1393, 0, 2210299022416)]}
+Is this person applying for SNAP benefits1?    {'/T': 'Is this person applying for SNAP benefits1?', '/FT': '/Btn', '/TU': 'Is this person applying for SNAP benefits1?', '/Ff': 49152, '/Kids': [IndirectObject(922, 0, 2210299022416), IndirectObject(902, 0, 2210299022416)]}
+Is this person applying for SNAP benefits4?    {'/T': 'Is this person applying for SNAP benefits4?', '/FT': '/Btn', '/TU': 'Is this person applying for SNAP benefits4?', '/Ff': 49152, '/Kids': [IndirectObject(930, 0, 2210299022416), IndirectObject(931, 0, 2210299022416)]}
+Is this person applying for SNAP benefits3?    {'/T': 'Is this person applying for SNAP benefits3?', '/FT': '/Btn', '/TU': 'Is this person applying for SNAP benefits3?', '/Ff': 49152, '/Kids': [IndirectObject(908, 0, 2210299022416), IndirectObject(924, 0, 2210299022416)]}
+Is this person applying for SNAP benefits2?    {'/T': 'Is this person applying for SNAP benefits2?', '/FT': '/Btn', '/TU': 'Is this person applying for SNAP benefits2?', '/Ff': 49152, '/Kids': [IndirectObject(900, 0, 2210299022416), IndirectObject(934, 0, 2210299022416)]}
+Has anyone worked in the last 60 days?    {'/T': 'Has anyone worked in the last 60 days?', '/FT': '/Btn', '/TU': 'Has anyone worked in the last 60 days?', '/Ff': 49152, '/Kids': [IndirectObject(967, 0, 2210299022416), IndirectObject(1029, 0, 2210299022416)]}
+Other income type1    {'/T': 'Other income type1', '/FT': '/Tx', '/TU': 'Other income type1', '/Ff': 12587008}
+Employer1    {'/T': 'Employer1', '/FT': '/Tx', '/TU': 'Employer1', '/Ff': 12587008}
+Other payment frequency1    {'/T': 'Other payment frequency1', '/FT': '/Tx', '/TU': 'Other payment frequency1', '/Ff': 12587008}
+Other income type2    {'/T': 'Other income type2', '/FT': '/Tx', '/TU': 'Other income type2', '/Ff': 12587008}
+Other income type3    {'/T': 'Other income type3', '/FT': '/Tx', '/TU': 'Other income type3', '/Ff': 12587008}
+Employer2    {'/T': 'Employer2', '/FT': '/Tx', '/TU': 'Employer2', '/Ff': 12587008}
+Employer3    {'/T': 'Employer3', '/FT': '/Tx', '/TU': 'Employer3', '/Ff': 12587008}
+Other payment frequency2    {'/T': 'Other payment frequency2', '/FT': '/Tx', '/TU': 'Other payment frequency2', '/Ff': 12587008}
+Other payment frequency3    {'/T': 'Other payment frequency3', '/FT': '/Tx', '/TU': 'Other payment frequency3', '/Ff': 12587008}
+First check_2    {'/T': 'First check_2', '/FT': '/Tx', '/TU': 'First check_2', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1033, 0, 2210299022416), '/K': IndirectObject(1042, 0, 2210299022416)}}
+Second check_2    {'/T': 'Second check_2', '/FT': '/Tx', '/TU': 'Second check_2', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1043, 0, 2210299022416), '/K': IndirectObject(1045, 0, 2210299022416)}}
+Third check_2    {'/T': 'Third check_2', '/FT': '/Tx', '/TU': 'Third check_2', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1041, 0, 2210299022416), '/K': IndirectObject(1047, 0, 2210299022416)}}
+Fourth check_2    {'/T': 'Fourth check_2', '/FT': '/Tx', '/TU': 'Fourth check_2', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1053, 0, 2210299022416), '/K': IndirectObject(1040, 0, 2210299022416)}}
+First check_3    {'/T': 'First check_3', '/FT': '/Tx', '/TU': 'First check_3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1033, 0, 2210299022416), '/K': IndirectObject(1042, 0, 2210299022416)}}
+Second check_3    {'/T': 'Second check_3', '/FT': '/Tx', '/TU': 'Second check_3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1043, 0, 2210299022416), '/K': IndirectObject(1045, 0, 2210299022416)}}
+Third check_3    {'/T': 'Third check_3', '/FT': '/Tx', '/TU': 'Third check_3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1046, 0, 2210299022416), '/K': IndirectObject(1050, 0, 2210299022416)}}
+Fourth check_3    {'/T': 'Fourth check_3', '/FT': '/Tx', '/TU': 'Fourth check_3', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1055, 0, 2210299022416), '/K': IndirectObject(1054, 0, 2210299022416)}}
+First Name_pg1    {'/T': 'First Name_pg1', '/FT': '/Tx', '/TU': 'First Name:', '/Ff': 4194304}
+Middle Name_pg1    {'/T': 'Middle Name_pg1', '/FT': '/Tx', '/TU': 'Middle Name:', '/Ff': 4194304}
+Home Address_pg1    {'/T': 'Home Address_pg1', '/FT': '/Tx', '/TU': 'Home Address:', '/Ff': 4194304}
+City State Zip Code_pg1    {'/T': 'City State Zip Code_pg1', '/FT': '/Tx', '/TU': 'City, State, Zip Code:', '/Ff': 4194304}
+Mailing Address if different_pg1    {'/T': 'Mailing Address if different_pg1', '/FT': '/Tx', '/TU': 'Mailing Address (if different):', '/Ff': 4194304}
+Person with Income1_pg4    {'/T': 'Person with Income1_pg4', '/FT': '/Tx', '/TU': 'Person with Income1', '/Ff': 12587008}
+Person with Income2_pg4    {'/T': 'Person with Income2_pg4', '/FT': '/Tx', '/TU': 'Person with Income2', '/Ff': 12587008}
+Person with Income3_pg4    {'/T': 'Person with Income3_pg4', '/FT': '/Tx', '/TU': 'Person with Income3', '/Ff': 12587008}
+Shelter costs    {'/T': 'Shelter costs', '/FT': '/Btn', '/TU': 'Is your household responcible to pay shelter costs?', '/Ff': 49152, '/Kids': [IndirectObject(1060, 0, 2210299022416), IndirectObject(1113, 0, 2210299022416)]}
+Rent amount    {'/T': 'Rent amount', '/FT': '/Tx', '/TU': 'How much do you pay?', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1115, 0, 2210299022416), '/K': IndirectObject(1121, 0, 2210299022416)}}
+Mortgage amount    {'/T': 'Mortgage amount', '/FT': '/Tx', '/TU': 'How much do you pay?', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1119, 0, 2210299022416), '/K': IndirectObject(1116, 0, 2210299022416)}}
+Home insurance amount    {'/T': 'Home insurance amount', '/FT': '/Tx', '/TU': 'How much do you pay?', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1119, 0, 2210299022416), '/K': IndirectObject(1116, 0, 2210299022416)}}
+Condo fee amount    {'/T': 'Condo fee amount', '/FT': '/Tx', '/TU': 'Condo fee_pg5', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1119, 0, 2210299022416), '/K': IndirectObject(1116, 0, 2210299022416)}}
+Other type of shelter cost amount    {'/T': 'Other type of shelter cost amount', '/FT': '/Tx', '/TU': 'How much do you pay?', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1119, 0, 2210299022416), '/K': IndirectObject(1116, 0, 2210299022416)}}
+Property tax amount    {'/T': 'Property tax amount', '/FT': '/Tx', '/TU': 'How much do you pay?', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1119, 0, 2210299022416), '/K': IndirectObject(1116, 0, 2210299022416)}}
+Dependent Care Costs    {'/T': 'Dependent Care Costs', '/FT': '/Btn', '/TU': 'Dependant care costs', '/Ff': 49152, '/Kids': [IndirectObject(1176, 0, 2210299022416), IndirectObject(1148, 0, 2210299022416)]}
+Travel costs to and/or from dependent care provider    {'/T': 'Travel costs to and/or from dependent care provider', '/FT': '/Btn', '/TU': 'Travel costs to and/or from dependent care provider', '/Ff': 49152, '/Kids': [IndirectObject(1159, 0, 2210299022416), IndirectObject(1149, 0, 2210299022416)]}
+Utility costs    {'/T': 'Utility costs', '/FT': '/Btn', '/TU': 'Travel costs to and/or from dependent care provider', '/Ff': 49152, '/Kids': [IndirectObject(1107, 0, 2210299022416), IndirectObject(1109, 0, 2210299022416)]}
+Medical Costs    {'/T': 'Medical Costs', '/FT': '/Btn', '/TU': 'Does anyone who is at least 60 years old/or disabled have out-of-pocket medical expenses?', '/Ff': 49152, '/Kids': [IndirectObject(1200, 0, 2210299022416), IndirectObject(1256, 0, 2210299022416)]}
+Name2    {'/T': 'Name2', '/FT': '/Tx', '/TU': 'Name', '/Ff': 12587008}
+Name3    {'/T': 'Name3', '/FT': '/Tx', '/TU': 'Name', '/Ff': 12587008}
+Total cost per month3    {'/T': 'Total cost per month3', '/FT': '/Tx', '/TU': 'Total cost per month', '/AA': {'/F': IndirectObject(1247, 0, 2210299022416), '/K': IndirectObject(1248, 0, 2210299022416)}}
+Total cost per month2    {'/T': 'Total cost per month2', '/FT': '/Tx', '/TU': 'Total cost per month', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1249, 0, 2210299022416), '/K': IndirectObject(1241, 0, 2210299022416)}}
+Total cost per month1    {'/T': 'Total cost per month1', '/FT': '/Tx', '/TU': 'Total cost per month', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1240, 0, 2210299022416), '/K': IndirectObject(1246, 0, 2210299022416)}}
+Medical Care1    {'/T': 'Medical Care1', '/FT': '/Btn', '/TU': 'Medical Care'}
+Health Insurance1    {'/T': 'Health Insurance1', '/FT': '/Btn', '/TU': 'Health Insurance'}
+Other1    {'/T': 'Other1', '/FT': '/Btn', '/TU': 'Other over-the-counter medications'}
+Dental Care1    {'/T': 'Dental Care1', '/FT': '/Btn', '/TU': 'Dental Care'}
+Medical Care2    {'/T': 'Medical Care2', '/FT': '/Btn', '/TU': 'Medical Care'}
+Health Insurance2    {'/T': 'Health Insurance2', '/FT': '/Btn', '/TU': 'Health Insurance'}
+Dental Care2    {'/T': 'Dental Care2', '/FT': '/Btn', '/TU': 'Dental Care'}
+Other2    {'/T': 'Other2', '/FT': '/Btn', '/TU': 'Other over-the-counter medications'}
+Medications2    {'/T': 'Medications2', '/FT': '/Btn', '/TU': 'Medications'}
+Medications1    {'/T': 'Medications1', '/FT': '/Btn', '/TU': 'Medications'}
+Other3    {'/T': 'Other3', '/FT': '/Btn', '/TU': 'Other over-the-counter medications'}
+)?    {'/T': ')?', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1392, 0, 2210299022416)], '/T': 'Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc'}, '/TU': 'Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc.)?', '/Ff': 49152, '/Kids': [IndirectObject(1232, 0, 2210299022416), IndirectObject(1254, 0, 2210299022416)]}
+Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc    {'/T': 'Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc', '/Kids': [IndirectObject(1392, 0, 2210299022416)]}
+Name1    {'/T': 'Name1', '/FT': '/Tx', '/TU': 'Name', '/Ff': 12587008}
+Name1_pg7    {'/T': 'Name1_pg7', '/FT': '/Tx', '/TU': 'Name of person with medical travel expenses', '/Ff': 12587008}
+Name2_pg7    {'/T': 'Name2_pg7', '/FT': '/Tx', '/TU': 'Name of person with medical travel expenses', '/Ff': 12587008}
+Name3_pg7    {'/T': 'Name3_pg7', '/FT': '/Tx', '/TU': 'Name of person with medical travel expenses', '/Ff': 12587008}
+Address of Medical Provider1    {'/T': 'Address of Medical Provider1', '/FT': '/Tx', '/TU': 'Address of Medical Provider', '/Ff': 12587008}
+Address of Medical Provider2    {'/T': 'Address of Medical Provider2', '/FT': '/Tx', '/TU': 'Address of Medical Provider', '/Ff': 12587008}
+Address of Medical Provider3    {'/T': 'Address of Medical Provider3', '/FT': '/Tx', '/TU': 'Address of Medical Provider', '/Ff': 12587008}
+To1    {'/T': 'To1', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1255, 0, 2210299022416), '/K': IndirectObject(1257, 0, 2210299022416)}}
+From1    {'/T': 'From1', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1250, 0, 2210299022416), '/K': IndirectObject(1251, 0, 2210299022416)}}
+To2    {'/T': 'To2', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1252, 0, 2210299022416), '/K': IndirectObject(1253, 0, 2210299022416)}}
+From2    {'/T': 'From2', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1239, 0, 2210299022416), '/K': IndirectObject(1237, 0, 2210299022416)}}
+To3    {'/T': 'To3', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1242, 0, 2210299022416), '/K': IndirectObject(1238, 0, 2210299022416)}}
+From3    {'/T': 'From3', '/FT': '/Tx', '/TU': 'Number of car trips per week to this provider', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1258, 0, 2210299022416), '/K': IndirectObject(1259, 0, 2210299022416)}}
+Cost for Parking Public Transportation Taxi Cab Shuttle etc1    {'/T': 'Cost for Parking Public Transportation Taxi Cab Shuttle etc1', '/FT': '/Tx', '/TU': 'Cost for Parking, Public Transportation, Taxi Cab, Shuttle, etc.', '/Ff': 12582912}
+Cost for Parking Public Transportation Taxi Cab Shuttle etc2    {'/T': 'Cost for Parking Public Transportation Taxi Cab Shuttle etc2', '/FT': '/Tx', '/TU': 'Cost for Parking, Public Transportation, Taxi Cab, Shuttle, etc.', '/Ff': 12582912}
+Cost for Parking Public Transportation Taxi Cab Shuttle etc3    {'/T': 'Cost for Parking Public Transportation Taxi Cab Shuttle etc3', '/FT': '/Tx', '/TU': 'Cost for Parking, Public Transportation, Taxi Cab, Shuttle, etc.', '/Ff': 12582912}
+Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?    {'/T': 'Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?', '/FT': '/Tx', '/TU': 'Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?', '/Ff': 12582912}
+Is anyone in a training program at least 80 hours per month?    {'/T': 'Is anyone in a training program at least 80 hours per month?', '/FT': '/Btn', '/TU': 'Is anyone in a training program at least 80 hours per month?', '/Ff': 49152, '/Kids': [IndirectObject(1265, 0, 2210299022416), IndirectObject(1272, 0, 2210299022416)]}
+If yes, who?2    {'/T': 'If yes, who?2', '/FT': '/Tx', '/TU': 'If yes, who?2', '/Ff': 12582912}
+If yes, who?1    {'/T': 'If yes, who?1', '/FT': '/Tx', '/TU': 'If yes, who?1', '/Ff': 12582912}
+If yes, who?3    {'/T': 'If yes, who?3', '/FT': '/Tx', '/TU': 'If yes, who?3', '/Ff': 12582912}
+If yes, who?4    {'/T': 'If yes, who?4', '/FT': '/Tx', '/TU': 'Is anyone working in exchange for goods and services (in-kind work)? If yes, who?2', '/Ff': 12582912}
+Is anyone working in exchange for goods and services (in-kind work)?    {'/T': 'Is anyone working in exchange for goods and services (in-kind work)?', '/FT': '/Btn', '/TU': 'Is anyone in a training program at least 80 hours per month?', '/Ff': 49152, '/Kids': [IndirectObject(1267, 0, 2210299022416), IndirectObject(1273, 0, 2210299022416)]}
+If yes, who?5    {'/T': 'If yes, who?5', '/FT': '/Tx', '/TU': 'If yes, who?5', '/Ff': 12582912}
+If yes, who?6    {'/T': 'If yes, who?6', '/FT': '/Tx', '/TU': 'If yes, who?6', '/Ff': 12582912}
+Is anyone doing an unpaid internship?    {'/T': 'Is anyone doing an unpaid internship?', '/FT': '/Btn', '/TU': 'Is anyone doing an unpaid internship?', '/Ff': 49152, '/Kids': [IndirectObject(1270, 0, 2210299022416), IndirectObject(1276, 0, 2210299022416)]}
+If yes, who?7    {'/T': 'If yes, who?7', '/FT': '/Tx', '/TU': 'If yes, who?7', '/Ff': 12582912}
+Is anyone volunteering?    {'/T': 'Is anyone volunteering?', '/FT': '/Btn', '/TU': 'Is anyone volunteering?', '/Ff': 49152, '/Kids': [IndirectObject(1268, 0, 2210299022416), IndirectObject(1275, 0, 2210299022416)]}
+If yes, who?8    {'/T': 'If yes, who?8', '/FT': '/Tx', '/TU': 'If yes, who?8', '/Ff': 12582912}
+If anyone in the household has earned income send us proof of gross income (before taxes) for the last four weeks such as:    {'/T': 'If anyone in the household has earned income send us proof of gross income (before taxes) for the last four weeks such as:', '/FT': '/Btn', '/TU': 'If anyone in the household has earned income, send us proof of gross income (before taxes) for the last four weeks such as:'}
+ Some transportation costs for medical expenses can be self-declared    {'/T': ' Some transportation costs for medical expenses can be self-declared', '/FT': '/Btn', '/Parent': {'/Kids': [IndirectObject(1338, 0, 2210299022416)], '/T': 'If any household member is elderly andor disabled and has at least 35 per month in medical expenses please submit proof of expenses'}, '/TU': 'If any household member is elderly andor disabled and has at least 35 per month in medical expenses please submit proof of expenses. Some transportation costs for medical expenses can be self-declared.'}
+If any household member is elderly andor disabled and has at least 35 per month in medical expenses please submit proof of expenses    {'/T': 'If any household member is elderly andor disabled and has at least 35 per month in medical expenses please submit proof of expenses', '/Kids': [IndirectObject(1338, 0, 2210299022416)]}
+First check_1    {'/T': 'First check_1', '/FT': '/Tx', '/TU': 'First check_1', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1035, 0, 2210299022416), '/K': IndirectObject(1036, 0, 2210299022416)}}
+Second check_1    {'/T': 'Second check_1', '/FT': '/Tx', '/TU': 'Second check_1', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1039, 0, 2210299022416), '/K': IndirectObject(1051, 0, 2210299022416)}}
+Third_check_1    {'/T': 'Third_check_1', '/FT': '/Tx', '/TU': 'Third_check_1', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1039, 0, 2210299022416), '/K': IndirectObject(1051, 0, 2210299022416)}}
+Fourth_check_1    {'/T': 'Fourth_check_1', '/FT': '/Tx', '/TU': 'Fourth_check1_pg4', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1039, 0, 2210299022416), '/K': IndirectObject(1051, 0, 2210299022416)}}
+Other rent payment frequency    {'/T': 'Other rent payment frequency', '/FT': '/Tx', '/TU': 'Other rent payment frequency', '/Ff': 12587008}
+Other shelter cost payment frequency    {'/T': 'Other shelter cost payment frequency', '/FT': '/Tx', '/TU': 'Other shelter cost payment frequency', '/Ff': 12587008}
+Other home insurance payment frequency    {'/T': 'Other home insurance payment frequency', '/FT': '/Tx', '/TU': 'Other home insurance payment frequency', '/Ff': 12587008}
+Other property tax payment frequency    {'/T': 'Other property tax payment frequency', '/FT': '/Tx', '/TU': 'Other property tax payment frequency', '/Ff': 12587008}
+Other mortgage payment frequency    {'/T': 'Other mortgage payment frequency', '/FT': '/Tx', '/TU': 'Other mortgage payment frequency', '/Ff': 12587008}
+Other condo fee payment frequency    {'/T': 'Other condo fee payment frequency', '/FT': '/Tx', '/TU': 'Other condo fee payment frequency', '/Ff': 12587008}
+City State Zip Code if different    {'/T': 'City State Zip Code if different', '/FT': '/Tx', '/TU': 'City, State, Zip Code if different:', '/Ff': 4194304}
+Date    {'/T': 'Date', '/FT': '/Tx', '/TU': 'Date:', '/Ff': 12582912, '/AA': {'/Bl': IndirectObject(3887, 0, 2210299022416), '/F': IndirectObject(3888, 0, 2210299022416), '/K': IndirectObject(3889, 0, 2210299022416)}}
+Phone Number    {'/T': 'Phone Number', '/FT': '/Tx', '/TU': 'Phone Number:', '/Ff': 4194304, '/AA': {'/F': IndirectObject(3885, 0, 2210299022416), '/K': IndirectObject(3886, 0, 2210299022416)}}
+Last Name_pg1    {'/T': 'Last Name_pg1', '/FT': '/Tx', '/TU': 'Last Name_pg1', '/Ff': 12582912}
+Intellectual/Cognitive    {'/T': 'Intellectual/Cognitive', '/FT': '/Btn', '/TU': 'Intellectual/Cognitive'}
+Physical    {'/T': 'Physical', '/FT': '/Btn', '/TU': ' Physical'}
+Other dependent cost frequency1    {'/T': 'Other dependent cost frequency1', '/FT': '/Tx', '/TU': 'Other dependent cost frequency1', '/Ff': 12587008}
+Other dependent cost frequency2    {'/T': 'Other dependent cost frequency2', '/FT': '/Tx', '/TU': 'Other dependent cost frequency2', '/Ff': 12587008}
+Other dependent cost frequency3    {'/T': 'Other dependent cost frequency3', '/FT': '/Tx', '/TU': 'Other dependent cost frequency3', '/Ff': 12587008}
+Other dependent cost frequency4    {'/T': 'Other dependent cost frequency4', '/FT': '/Tx', '/TU': 'Other dependent cost frequency4', '/Ff': 12587008}
+Signature    {'/T': 'Signature', '/FT': '/Tx', '/TU': 'Signature', '/Ff': 12582912}
+Black or African American    {'/T': 'Black or African American', '/FT': '/Btn', '/TU': 'Black or African American'}
+Native Hawaiian or Other Pacific Islander    {'/T': 'Native Hawaiian or Other Pacific Islander', '/FT': '/Btn', '/TU': 'Native Hawaiian or Other Pacific Islander'}
+Asian    {'/T': 'Asian', '/FT': '/Btn', '/TU': 'Asian'}
+White    {'/T': 'White', '/FT': '/Btn', '/TU': 'White'}
+American Indian or Alaska Native    {'/T': 'American Indian or Alaska Native', '/FT': '/Btn', '/TU': 'American Indian or Alaska Native'}
+Not Hispanic or Latino    {'/T': 'Not Hispanic or Latino', '/FT': '/Btn', '/TU': 'Not Hispanic or Latino'}
+Hispanic or Latino    {'/T': 'Hispanic or Latino', '/FT': '/Btn', '/TU': 'Hispanic or Latino'}
+Wages1_pg4    {'/T': 'Wages1_pg4', '/FT': '/Btn', '/TU': 'Wages1_pg4'}
+Self-Employment1_pg4    {'/T': 'Self-Employment1_pg4', '/FT': '/Btn', '/TU': 'Self-Employment1_pg4'}
+Other income type1_pg4    {'/T': 'Other income type1_pg4', '/FT': '/Btn', '/TU': 'Other income type1_pg4'}
+Weekly1_pg4    {'/T': 'Weekly1_pg4', '/FT': '/Btn', '/TU': 'Weekly1_pg4'}
+Biweekly1_pg4    {'/T': 'Biweekly1_pg4', '/FT': '/Btn', '/TU': 'Biweekly1_pg4'}
+Other payment frequency_pg4    {'/T': 'Other payment frequency_pg4', '/FT': '/Btn', '/TU': 'Other payment frequency_pg4'}
+Wages2_pg4    {'/T': 'Wages2_pg4', '/FT': '/Btn', '/TU': 'Wages2_pg4'}
+Self-Employment2_pg4    {'/T': 'Self-Employment2_pg4', '/FT': '/Btn', '/TU': 'Self-Employment2_pg4'}
+Other income type2_pg4    {'/T': 'Other income type2_pg4', '/FT': '/Btn', '/TU': 'Other income type2_pg4'}
+Wages3_pg4    {'/T': 'Wages3_pg4', '/FT': '/Btn', '/TU': 'Wages3_pg4'}
+Self-Employment3_pg4    {'/T': 'Self-Employment3_pg4', '/FT': '/Btn', '/TU': 'Self-Employment3_pg4'}
+Other income type3_pg4    {'/T': 'Other income type3_pg4', '/FT': '/Btn', '/TU': 'Other income type3_pg4'}
+Weekly2_pg4    {'/T': 'Weekly2_pg4', '/FT': '/Btn', '/TU': 'Weekly2_pg4'}
+Biweekly2_pg4    {'/T': 'Biweekly2_pg4', '/FT': '/Btn', '/TU': 'Biweekly2_pg4'}
+Other payment frequency2_pg4    {'/T': 'Other payment frequency2_pg4', '/FT': '/Btn', '/TU': 'Other payment frequency2_pg4'}
+Biweekly3_pg4    {'/T': 'Biweekly3_pg4', '/FT': '/Btn', '/TU': 'Biweekly3_pg4'}
+Other payment frequency3_pg4    {'/T': 'Other payment frequency3_pg4', '/FT': '/Btn', '/TU': 'Other payment frequency3_pg4'}
+Weekly3_pg4    {'/T': 'Weekly3_pg4', '/FT': '/Btn', '/TU': 'Weekly3_pg4'}
+Gross amount Row1_pg4    {'/T': 'Gross amount Row1_pg4', '/FT': '/Tx', '/TU': ' Gross amount Row1_pg4', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1044, 0, 2210299022416), '/K': IndirectObject(1052, 0, 2210299022416)}}
+Person with Other Type of Income Row1_pg4    {'/T': 'Person with Other Type of Income Row1_pg4', '/FT': '/Tx', '/TU': 'Person with Other Type of Income Row1_pg4', '/Ff': 12587008}
+Other Income type Row1_pg4    {'/T': 'Other Income type Row1_pg4', '/FT': '/Tx', '/TU': 'Other Income type Row1_pg4', '/Ff': 12587008}
+Weekly Row1_pg4    {'/T': 'Weekly Row1_pg4', '/FT': '/Btn', '/TU': 'Weekly Row1_pg4'}
+Biweekly Row1_pg4    {'/T': 'Biweekly Row1_pg4', '/FT': '/Btn', '/TU': 'Biweekly Row1_pg4'}
+Monthly Row1_pg4    {'/T': 'Monthly Row1_pg4', '/FT': '/Btn', '/TU': 'Monthly Row1_pg4'}
+Other payment frequency Row1_pg4?    {'/T': 'Other payment frequency Row1_pg4?', '/FT': '/Tx', '/TU': 'Other payment frequency Row1_pg4?'}
+Gross amount Row2_pg4    {'/T': 'Gross amount Row2_pg4', '/FT': '/Tx', '/TU': 'Gross amount Row2_pg4', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1044, 0, 2210299022416), '/K': IndirectObject(1052, 0, 2210299022416)}}
+Other payment frequency Row2_pg4    {'/T': 'Other payment frequency Row2_pg4', '/FT': '/Tx', '/TU': 'Other payment frequency Row2_pg4'}
+Monthly Row2_pg4    {'/T': 'Monthly Row2_pg4', '/FT': '/Btn', '/TU': 'Monthly Row2_pg4'}
+Biweekly Row2_pg4    {'/T': 'Biweekly Row2_pg4', '/FT': '/Btn', '/TU': 'Biweekly Row2_pg4'}
+Weekly Row2_pg4    {'/T': 'Weekly Row2_pg4', '/FT': '/Btn', '/TU': 'Weekly Row2_pg4'}
+Other Income type Row2_pg4    {'/T': 'Other Income type Row2_pg4', '/FT': '/Tx', '/TU': 'Other Income type2 Row2_pg4', '/Ff': 12587008}
+Person with Other Type of Income Row2_pg4    {'/T': 'Person with Other Type of Income Row2_pg4', '/FT': '/Tx', '/TU': 'Person with Other Type of Income Row2_pg4', '/Ff': 12587008}
+Person with Other Type of Income Row3_pg4    {'/T': 'Person with Other Type of Income Row3_pg4', '/FT': '/Tx', '/TU': 'Person with Other Type of Income3', '/Ff': 12587008}
+Other Income type Row3_pg4    {'/T': 'Other Income type Row3_pg4', '/FT': '/Tx', '/TU': 'Other Income type Row3_pg4', '/Ff': 12587008}
+Weekly Row3_pg4    {'/T': 'Weekly Row3_pg4', '/FT': '/Btn', '/TU': 'Weekly Row3_pg4'}
+Biweekly Row3_pg4    {'/T': 'Biweekly Row3_pg4', '/FT': '/Btn', '/TU': 'Biweekly Row3_pg4'}
+Monthly Row3_pg4    {'/T': 'Monthly Row3_pg4', '/FT': '/Btn', '/TU': 'Monthly Row3_pg4'}
+Other Row1_pg4    {'/T': 'Other Row1_pg4', '/FT': '/Btn', '/TU': 'Other Row1_pg4'}
+Other Row2_pg4    {'/T': 'Other Row2_pg4', '/FT': '/Btn', '/TU': 'Other Row2_pg4'}
+Other Row3_pg4    {'/T': 'Other Row3_pg4', '/FT': '/Btn', '/TU': 'Other Row3_pg4'}
+Other payment frequency Row3_pg4    {'/T': 'Other payment frequency Row3_pg4', '/FT': '/Tx', '/TU': 'Other payment frequency Row3_pg4'}
+Gross income Row3_pg4    {'/T': 'Gross income Row3_pg4', '/FT': '/Tx', '/TU': 'Gross income Row3_pg4', '/Ff': 12587008, '/AA': {'/F': IndirectObject(1048, 0, 2210299022416), '/K': IndirectObject(1049, 0, 2210299022416)}}
+Rent_frequency_monthly_pg5    {'/T': 'Rent_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Rent_frequency_monthly_pg5'}
+Rent_frequency_weekly_pg5    {'/T': 'Rent_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Rent_frequency_weekly_pg5'}
+Rent_frequency_quarterly_pg5    {'/T': 'Rent_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Rent_frequency_quarterly_pg5'}
+Rent_frequency_annually_pg5    {'/T': 'Rent_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Mortgage_frequency_annually_pg5'}
+Rent_frequency_other_pg5    {'/T': 'Rent_frequency_other_pg5', '/FT': '/Btn'}
+Rent_pg5    {'/T': 'Rent_pg5', '/FT': '/Btn', '/TU': 'Rent_pg5'}
+Mortgage_pg5    {'/T': 'Mortgage_pg5', '/FT': '/Btn', '/TU': 'Mortgage_pg5'}
+Property Taxes_pg5    {'/T': 'Property Taxes_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_pg5'}
+Mortgage_frequency_monthly_pg5    {'/T': 'Mortgage_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Mortgage_frequency_monthly_pg5'}
+Mortgage_frequency_weekly_pg5    {'/T': 'Mortgage_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_frequency_weekly_pg5'}
+Mortgage_frequency_quarterly_pg5    {'/T': 'Mortgage_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_frequency_quarterly_pg5'}
+Mortgage_frequency_annually_pg5    {'/T': 'Mortgage_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_frequency_annually_pg5'}
+Mortgage_frequency_other_pg5    {'/T': 'Mortgage_frequency_other_pg5', '/FT': '/Btn'}
+Home Insurance_pg5    {'/T': 'Home Insurance_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_pg5'}
+Property Taxes_frequency_monthly_pg5    {'/T': 'Property Taxes_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_frequency_monthly_pg5'}
+Property Taxes_frequency_weekly_pg5    {'/T': 'Property Taxes_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Property Taxes_frequency_weekly_pg5'}
+Property Taxes_frequency_quarterly_pg5    {'/T': 'Property Taxes_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_frequency_quarterly_pg5'}
+Property Taxes_frequency_annually_pg5    {'/T': 'Property Taxes_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_frequency_annually_pg5'}
+Property Taxes_frequency_other_pg5    {'/T': 'Property Taxes_frequency_other_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_frequency_other_pg5'}
+Condo fee_pg5    {'/T': 'Condo fee_pg5', '/FT': '/Btn', '/TU': 'Condo fee_pg5'}
+Home Insurance_frequency_monthly_pg5    {'/T': 'Home Insurance_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_frequency_monthly_pg5'}
+Home Insurance_frequency_weekly_pg5    {'/T': 'Home Insurance_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_weekly_pg5'}
+Home Insurance_frequency_quarterly_pg5    {'/T': 'Home Insurance_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Home Insurance_frequency_quarterly_pg5'}
+Home Insurance_frequency_annually_pg5    {'/T': 'Home Insurance_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_annually_pg5'}
+Home Insurance_frequency_other_pg5    {'/T': 'Home Insurance_frequency_other_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_other_pg5'}
+Condo fee_frequency_monthly_pg5    {'/T': 'Condo fee_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_monthly_pg5'}
+Other_pg5    {'/T': 'Other_pg5', '/FT': '/Btn', '/TU': 'Other_pg5'}
+Other_frequency_monthly_pg5    {'/T': 'Other_frequency_monthly_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_monthly_pg5'}
+Condo fee_frequency_weekly_pg5    {'/T': 'Condo fee_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_quarterly_pg5'}
+Condo fee_frequency_quarterly_pg5    {'/T': 'Condo fee_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_quarterly_pg5'}
+Condo fee_frequency_annually_pg5    {'/T': 'Condo fee_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_annually_pg5'}
+Condo fee_frequency_other_pg5    {'/T': 'Condo fee_frequency_other_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_other_pg5'}
+Other_frequency_weekly_pg5    {'/T': 'Other_frequency_weekly_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_weekly_pg5'}
+Other_frequency_quarterly_pg5    {'/T': 'Other_frequency_quarterly_pg5', '/FT': '/Btn', '/TU': 'Condo fee_frequency_quarterly_pg5'}
+Other_frequency_annually_pg5    {'/T': 'Other_frequency_annually_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_annually_pg5'}
+Other_frequency_other_pg5    {'/T': 'Other_frequency_other_pg5', '/FT': '/Btn', '/TU': 'Other_frequency_other_pg5'}
+Row1_name of dependent_pg6    {'/T': 'Row1_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row1_name of dependent_pg6', '/Ff': 12587008}
+Row1_amount_pg6    {'/T': 'Row1_amount_pg6', '/FT': '/Tx', '/TU': 'Row1_amount_pg6', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1145, 0, 2210299022416), '/K': IndirectObject(1128, 0, 2210299022416)}}
+Row1_frequency_weekly_pg6    {'/T': 'Row1_frequency_weekly_pg6', '/FT': '/Btn', '/TU': 'Row1_frequency_weekly_pg6'}
+Row1_frequency_biweekly_pg6    {'/T': 'Row1_frequency_biweekly_pg6', '/FT': '/Btn', '/TU': 'Row1_frequency_biweekly_pg6'}
+Row1_frequency_monthly_pg6    {'/T': 'Row1_frequency_monthly_pg6', '/FT': '/Btn', '/TU': 'Row1_frequency_monthly_pg6'}
+Row1_frequency_other_pg6    {'/T': 'Row1_frequency_other_pg6', '/FT': '/Btn', '/TU': 'Row1_frequency_other_pg6'}
+Row2_name of dependent_pg6    {'/T': 'Row2_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row2_name of dependent_pg6', '/Ff': 12587008}
+Row2_amount_pg6    {'/T': 'Row2_amount_pg6', '/FT': '/Tx', '/TU': 'Row2_amount_pg6', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1126, 0, 2210299022416), '/K': IndirectObject(1129, 0, 2210299022416)}}
+Row2_frequency_weekly_pg6    {'/T': 'Row2_frequency_weekly_pg6', '/FT': '/Btn', '/TU': 'Row2_frequency_weekly_pg6'}
+Row2_frequency_biweekly_pg6    {'/T': 'Row2_frequency_biweekly_pg6', '/FT': '/Btn', '/TU': 'Row2_frequency_biweekly_pg6'}
+Row2_frequency_monthly_pg6    {'/T': 'Row2_frequency_monthly_pg6', '/FT': '/Btn', '/TU': 'Row2_frequency_monthly_pg6'}
+Row2_frequency_other_pg6    {'/T': 'Row2_frequency_other_pg6', '/FT': '/Btn', '/TU': 'Row2_frequency_other_pg6'}
+Row3_name of dependent_pg6    {'/T': 'Row3_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row3_name of dependent_pg6', '/Ff': 12587008}
+Row3_amount_pg6    {'/T': 'Row3_amount_pg6', '/FT': '/Tx', '/TU': 'Row3_amount_pg6', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1122, 0, 2210299022416), '/K': IndirectObject(1123, 0, 2210299022416)}}
+Row3_frequency_biweekly_pg6    {'/T': 'Row3_frequency_biweekly_pg6', '/FT': '/Btn', '/TU': 'Row3_frequency_biweekly_pg6'}
+Row3_frequency_other_pg6    {'/T': 'Row3_frequency_other_pg6', '/FT': '/Btn', '/TU': 'Row3_frequency_other_pg6'}
+Row3_frequency_monthly_pg6    {'/T': 'Row3_frequency_monthly_pg6', '/FT': '/Btn', '/TU': 'Row3_frequency_monthly_pg6'}
+Row3_frequency_weekly_pg6    {'/T': 'Row3_frequency_weekly_pg6', '/FT': '/Btn', '/TU': 'Row3_frequency_weekly_pg6'}
+Row4_frequency_biweekly_pg6    {'/T': 'Row4_frequency_biweekly_pg6', '/FT': '/Btn', '/TU': 'Row4_frequency_biweekly_pg6'}
+Row4_amount_pg6    {'/T': 'Row4_amount_pg6', '/FT': '/Tx', '/TU': 'Row4_amount_pg6', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1125, 0, 2210299022416), '/K': IndirectObject(1137, 0, 2210299022416)}}
+Row4_name of dependent_pg6    {'/T': 'Row4_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row4_name of dependent_pg6', '/Ff': 12587008}
+Row4_frequency_monthly_pg6    {'/T': 'Row4_frequency_monthly_pg6', '/FT': '/Btn', '/TU': 'Row4_frequency_monthly_pg6'}
+Row4_frequency_weekly_pg6    {'/T': 'Row4_frequency_weekly_pg6', '/FT': '/Btn', '/TU': 'Row3_frequency_weekly_pg6'}
+Row4_frequency_other_pg6    {'/T': 'Row4_frequency_other_pg6', '/FT': '/Btn', '/TU': 'Row4_frequency_other_pg6'}
+Row5_name of dependent_pg6    {'/T': 'Row5_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row5_name of dependent_pg6', '/Ff': 12587008}
+Row6_name of dependent_pg6    {'/T': 'Row6_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row6_name of dependent_pg6', '/Ff': 12587008}
+Row7_name of dependent_pg6    {'/T': 'Row7_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row7_name of dependent_pg6', '/Ff': 12587008}
+Row8_name of dependent_pg6    {'/T': 'Row8_name of dependent_pg6', '/FT': '/Tx', '/TU': 'Row8_name of dependent_pg6', '/Ff': 4198400}
+Row5_address of care provider_pg6    {'/T': 'Row5_address of care provider_pg6', '/FT': '/Tx', '/TU': 'Row5_address of care provider_pg6', '/Ff': 12587008}
+Row6_address of care provider_pg6    {'/T': 'Row6_address of care provider_pg6', '/FT': '/Tx', '/TU': 'Row6_address of care provider_pg6', '/Ff': 12587008}
+Row7_address of care provider_pg6    {'/T': 'Row7_address of care provider_pg6', '/FT': '/Tx', '/TU': 'Row7_address of care provider_pg6', '/Ff': 12587008}
+Row8_address of care provider_pg6    {'/T': 'Row8_address of care provider_pg6', '/FT': '/Tx', '/TU': 'Row8_address of care provider_pg6', '/Ff': 12587008}
+Row5_From your home to Care Provider for dependent1_pg6    {'/T': 'Row5_From your home to Care Provider for dependent1_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1141, 0, 2210299022416), '/K': IndirectObject(1134, 0, 2210299022416)}}
+Row6_From your home to Care Provider for dependent2_pg6    {'/T': 'Row6_From your home to Care Provider for dependent2_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1138, 0, 2210299022416), '/K': IndirectObject(1146, 0, 2210299022416)}}
+Row7_From your home to Care Provider for dependent3_pg6    {'/T': 'Row7_From your home to Care Provider for dependent3_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1139, 0, 2210299022416), '/K': IndirectObject(1124, 0, 2210299022416)}}
+Row8_From your home to Care Provider for dependent4_pg6    {'/T': 'Row8_From your home to Care Provider for dependent4_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1127, 0, 2210299022416), '/K': IndirectObject(1136, 0, 2210299022416)}}
+Row5_From Care Provider to your home for dependent1_pg6    {'/T': 'Row5_From Care Provider to your home for dependent1_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1143, 0, 2210299022416), '/K': IndirectObject(1135, 0, 2210299022416)}}
+Row6_From Care Provider to your home for dependent2_pg6    {'/T': 'Row6_From Care Provider to your home for dependent2_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1144, 0, 2210299022416), '/K': IndirectObject(1130, 0, 2210299022416)}}
+Row7_From Care Provider to your home for dependent3_pg6    {'/T': 'Row7_From Care Provider to your home for dependent3_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1131, 0, 2210299022416), '/K': IndirectObject(1140, 0, 2210299022416)}}
+Row8_From Care Provider to your home for dependent4_pg6    {'/T': 'Row8_From Care Provider to your home for dependent4_pg6', '/FT': '/Tx', '/TU': 'Number of car trips per week', '/Ff': 12582912, '/AA': {'/F': IndirectObject(1142, 0, 2210299022416), '/K': IndirectObject(1132, 0, 2210299022416)}}
+If not driving: cost of public transportation for dependent1_pg6    {'/T': 'If not driving: cost of public transportation for dependent1_pg6', '/FT': '/Tx', '/TU': 'If not driving: cost of public transportation for dependent1_pg6', '/Ff': 12582912, '/AA': {}}
+If not driving: cost of public transportation for dependent2_pg6    {'/T': 'If not driving: cost of public transportation for dependent2_pg6', '/FT': '/Tx', '/TU': 'If not driving: cost of public transportation for dependent2_pg6', '/Ff': 12582912, '/AA': {}}
+If not driving: cost of public transportation for dependent3_pg6    {'/T': 'If not driving: cost of public transportation for dependent3_pg6', '/FT': '/Tx', '/TU': 'If not driving: cost of public transportation for dependent3_pg6', '/Ff': 12582912, '/AA': {}}
+If not driving: cost of public transportation for dependent4_pg6    {'/T': 'If not driving: cost of public transportation for dependent4_pg6', '/FT': '/Tx', '/TU': 'If not driving: cost of public transportation for dependent4_pg6', '/Ff': 12582912, '/AA': {}}
+Male    {'/T': 'Male', '/FT': '/Btn', '/TU': 'Male'}
+Female    {'/T': 'Female', '/FT': '/Btn', '/TU': 'Female'}
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?    {'/T': 'Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?', '/FT': '/Btn', '/TU': 'Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?', '/Ff': 49152, '/Kids': [IndirectObject(1005, 0, 2210299022416), IndirectObject(1032, 0, 2210299022416)]}
+Has anyone received SNAP benefits outside of MA within past 30 days?    {'/T': 'Has anyone received SNAP benefits outside of MA within past 30 days?', '/FT': '/Btn', '/TU': 'Has anyone received SNAP benefits outside of MA within past 30 days?', '/Ff': 49152, '/Kids': [IndirectObject(1274, 0, 2210299022416), IndirectObject(1279, 0, 2210299022416)]}
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?*    {'/T': 'Do you want to give us permission to contact a person or agency if we cannot reach you by phone?*', '/FT': '/Btn', '/TU': 'Do you want to give us permission to contact a person or agency if we cannot reach you by phone?*', '/Ff': 49152, '/Kids': [IndirectObject(1283, 0, 2210299022416), IndirectObject(1290, 0, 2210299022416)]}
+Assisting with Applicatioin - Name of Person or Agency    {'/T': 'Assisting with Applicatioin - Name of Person or Agency', '/FT': '/Tx', '/Ff': 4198400}
+Assisting with Application - Phone Number    {'/T': 'Assisting with Application - Phone Number', '/FT': '/Tx', '/Ff': 4198400}
+Assisting with Application - Address    {'/T': 'Assisting with Application - Address', '/FT': '/Tx', '/Ff': 4198400}
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?*    {'/T': 'Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?*', '/FT': '/Btn', '/TU': 'Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?*', '/Ff': 49152, '/Kids': [IndirectObject(1288, 0, 2210299022416), IndirectObject(1291, 0, 2210299022416)]}
+Authorization to Release Information - Name of Person or Agency    {'/T': 'Authorization to Release Information - Name of Person or Agency', '/FT': '/Tx', '/TU': 'Authorization to Release Information - Name of Person or Agency', '/Ff': 4198400}
+Authorization to Release Information - Address    {'/T': 'Authorization to Release Information - Address', '/FT': '/Tx', '/TU': 'Authorization to Release Information - Address', '/Ff': 4198400}
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?*    {'/T': 'Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?*', '/FT': '/Btn', '/TU': 'Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?*', '/Ff': 49152, '/Kids': [IndirectObject(1306, 0, 2210299022416), IndirectObject(1307, 0, 2210299022416)]}
+Authorized Representative for Certification - Name of Person or Agency    {'/T': 'Authorized Representative for Certification - Name of Person or Agency', '/FT': '/Tx', '/TU': 'Authorized Representative for Certification - Name of Person or Agency', '/Ff': 4198400}
+Authorized Representative for Certification - Phone Number    {'/T': 'Authorized Representative for Certification - Phone Number', '/FT': '/Tx', '/TU': 'Authorized Representative for Certification - Phone Number', '/Ff': 4198400}
+Federal Employer ID Number - Agency Only    {'/T': 'Federal Employer ID Number - Agency Only', '/FT': '/Tx', '/TU': 'Federal Employer ID Number - Agency Only', '/Ff': 4198400}
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?*    {'/T': 'Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?*', '/FT': '/Btn', '/TU': 'Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?*', '/Ff': 49152, '/Kids': [IndirectObject(1305, 0, 2210299022416), IndirectObject(1308, 0, 2210299022416)]}
+Authorized Rep for EBT Transactions - Name of Person    {'/T': 'Authorized Rep for EBT Transactions - Name of Person', '/FT': '/Tx', '/TU': 'Authorized Rep for EBT Transactions - Name of Person', '/Ff': 4198400}
+Authorized Rep for EBT Transactions - Phone Number    {'/T': 'Authorized Rep for EBT Transactions - Phone Number', '/FT': '/Tx', '/TU': 'Authorized Rep for EBT Transactions - Phone Number', '/Ff': 4198400}
+Authorized Rep for EBT Transactions - Address    {'/T': 'Authorized Rep for EBT Transactions - Address', '/FT': '/Tx', '/TU': 'Authorized Rep for EBT Transactions - Address', '/Ff': 4198400}
+Authorizaton to Release Information - Phone Number    {'/T': 'Authorizaton to Release Information - Phone Number', '/FT': '/Tx', '/TU': 'Authorizaton to Release Information - Phone Number', '/Ff': 4198400}

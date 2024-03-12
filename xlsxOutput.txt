@@ -1,0 +1,482 @@
+Timestamp2024-02-21 22:06:43.758000
+Name, DOB, Address, SexALISTER MARTIN
+
+DOB1988-07-09 00:00:00
+Address12 MOHAWK ST UNIT 9 BOSTON MA 02127-3594
+
+SexM
+Language / IdiomaEnglish
+Race / RazaBlack or African American
+Phone number / Número de teléfono8482180009
+Email address / Dirección de correo electrónicoalistar2016@gmail.com
+Are you a U.S Citizen? / ¿Eres ciudadano americano?Yes
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)025186497
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?Yes
+Do you have any of these programs?None of the above
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYou have a current bank balance (savings and checking combined) under $2,001
+Are you homeless? / ¿No tienes hogar?No
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?https://drive.google.com/open?id=1zV1x8HAUSKzb9IFWPLou2Sqwh1bMm3jG
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?No
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?No
+If yes, please check off your impairment type(s) nan
+What is your preferred method of communication?In-Person
+Has Massachusetts certified that you have a disability?No
+Do other people live with you?Yes
+Total number in household.1
+List the members of your household.Bobby Kennedy, 12/2/2006, 0967833, Son, Y, N
+Has anyone worked in the last 60 days?No
+Income typeWages
+Employer name or informationBrigham
+Payment frequencyMonthly
+Gross Earnings for Last 4 Weeks1000
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?No
+Income Typenan
+Benefit income frequencyBi-weekly
+Gross amount2000
+Is the household responsible to pay shelter costs?Yes
+Type of shelter costsRent
+Shelter costs amount500
+Is the household responsible to pay utility costs separate from shelter costs?No
+Utility costs detailed information200
+Select the utility costs you payHeat (oil, gas, electricity or propane, etc.)
+Is anyone responsible to pay for adult or child care costs?No
+Name of child/dependentBenny Blanco
+Amount paid200
+Frequency of paymentWeekly
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?No
+Name of the personBenjamin Ruxin
+Expense TypeMedical care
+Total cost per month1000
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?No
+Address or medical provider12 Mohawk
+Number of cars per week to the address indicated3
+Number of cars per week from the address indicated2
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,150
+Is anyone in a training program at least 80 hours per
+month?No
+If yes, provide the full nameHospital Cares
+Is anyone working in exchange for goods and services
+(in-kind work)?No
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?No
+Is anyone volunteering?Yes
+Yes, provide the full name.GOTVax
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?No
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?Yes
+If yes, provide the name of the person or the Agency.Link health
+Provide a phone number8482180009
+Provide a valid address217 Cotter
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?Yes
+If yes, provide the name of the person or Agency.Alister Martin
+Provide a phone number.8482180009
+Provide a valid address.12 mohawk st apartment 9
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?Yes
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?Yes
+If yes, provide the full name of the person.Reese Markland
+Provide a valid phone number7328297697
+What is your heating source?nan
+Provide the Company Name.nan
+Timestamp2024-02-24 02:05:52.602000
+Name, DOB, Address, Sextest
+DOBnan
+Addressnan
+Sexnan
+Language / IdiomaEnglish
+Race / RazaAsian
+Phone number / Número de teléfono+923101457770
+Email address / Dirección de correo electrónicowasilcoder@gmail.com
+Are you a U.S Citizen? / ¿Eres ciudadano americano?No
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)no
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?Yes
+Do you have any of these programs?LIHEAP (Low-Income Home Energy Assistance Program)
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYou have a current bank balance (savings and checking combined) under $2,001
+Are you homeless? / ¿No tienes hogar?No
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?nan
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?Yes
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?No
+If yes, please check off your impairment type(s) Visual
+What is your preferred method of communication?Telephone
+Has Massachusetts certified that you have a disability?No
+Do other people live with you?No
+Total number in household.7
+List the members of your household.3
+Has anyone worked in the last 60 days?nan
+Income typenan
+Employer name or informationnan
+Payment frequencynan
+Gross Earnings for Last 4 Weeksnan
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?nan
+Income Typenan
+Benefit income frequencynan
+Gross amountnan
+Is the household responsible to pay shelter costs?nan
+Type of shelter costsnan
+Shelter costs amountnan
+Is the household responsible to pay utility costs separate from shelter costs?nan
+Utility costs detailed informationnan
+Select the utility costs you paynan
+Is anyone responsible to pay for adult or child care costs?nan
+Name of child/dependentnan
+Amount paidnan
+Frequency of paymentnan
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?nan
+Name of the personnan
+Expense Typenan
+Total cost per monthnan
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?nan
+Address or medical providernan
+Number of cars per week to the address indicatednan
+Number of cars per week from the address indicatednan
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,nan
+Is anyone in a training program at least 80 hours per
+month?nan
+If yes, provide the full namenan
+Is anyone working in exchange for goods and services
+(in-kind work)?nan
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?nan
+Is anyone volunteering?nan
+Yes, provide the full name.nan
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?nan
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?nan
+If yes, provide the name of the person or the Agency.nan
+Provide a phone numbernan
+Provide a valid addressnan
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?nan
+If yes, provide the name of the person or Agency.nan
+Provide a phone number.nan
+Provide a valid address.nan
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?nan
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?nan
+If yes, provide the full name of the person.nan
+Provide a valid phone numbernan
+What is your heating source?nan
+Provide the Company Name.nan
+Timestamp2024-02-24 02:13:31.355000
+Name, DOB, Address, Sexwasil test 3
+DOBnan
+Addressnan
+Sexnan
+Language / IdiomaSpanish
+Race / RazaWhite
+Phone number / Número de teléfono+923101457770
+Email address / Dirección de correo electrónicowasilcoder@gmail.com
+Are you a U.S Citizen? / ¿Eres ciudadano americano?No
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)no
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?No
+Do you have any of these programs?nan
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYour monthly income is less than $150 and your money in the bank is $100 or less
+Are you homeless? / ¿No tienes hogar?nan
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?nan
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?nan
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?nan
+If yes, please check off your impairment type(s) nan
+What is your preferred method of communication?nan
+Has Massachusetts certified that you have a disability?nan
+Do other people live with you?nan
+Total number in household.nan
+List the members of your household.nan
+Has anyone worked in the last 60 days?nan
+Income typenan
+Employer name or informationnan
+Payment frequencynan
+Gross Earnings for Last 4 Weeksnan
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?nan
+Income Typenan
+Benefit income frequencynan
+Gross amountnan
+Is the household responsible to pay shelter costs?nan
+Type of shelter costsnan
+Shelter costs amountnan
+Is the household responsible to pay utility costs separate from shelter costs?nan
+Utility costs detailed informationnan
+Select the utility costs you paynan
+Is anyone responsible to pay for adult or child care costs?nan
+Name of child/dependentnan
+Amount paidnan
+Frequency of paymentnan
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?nan
+Name of the personnan
+Expense Typenan
+Total cost per monthnan
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?nan
+Address or medical providernan
+Number of cars per week to the address indicatednan
+Number of cars per week from the address indicatednan
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,nan
+Is anyone in a training program at least 80 hours per
+month?nan
+If yes, provide the full namenan
+Is anyone working in exchange for goods and services
+(in-kind work)?nan
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?nan
+Is anyone volunteering?nan
+Yes, provide the full name.nan
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?nan
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?nan
+If yes, provide the name of the person or the Agency.nan
+Provide a phone numbernan
+Provide a valid addressnan
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?nan
+If yes, provide the name of the person or Agency.nan
+Provide a phone number.nan
+Provide a valid address.nan
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?nan
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?nan
+If yes, provide the full name of the person.nan
+Provide a valid phone numbernan
+What is your heating source?nan
+Provide the Company Name.nan
+Timestamp2024-02-24 02:18:59.216000
+Name, DOB, Address, Sexwasil, 03101457770, shalimar link road lahore, M
+DOBnan
+Addressnan
+Sexnan
+Language / IdiomaEnglish
+Race / RazaBlack or African American
+Phone number / Número de teléfonofasd
+Email address / Dirección de correo electróniconan
+Are you a U.S Citizen? / ¿Eres ciudadano americano?No
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)33
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?Yes
+Do you have any of these programs?nan
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYour monthly income is less than $150 and your money in the bank is $100 or less
+Are you homeless? / ¿No tienes hogar?nan
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?nan
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?nan
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?nan
+If yes, please check off your impairment type(s) nan
+What is your preferred method of communication?nan
+Has Massachusetts certified that you have a disability?nan
+Do other people live with you?nan
+Total number in household.nan
+List the members of your household.nan
+Has anyone worked in the last 60 days?nan
+Income typenan
+Employer name or informationnan
+Payment frequencynan
+Gross Earnings for Last 4 Weeksnan
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?nan
+Income Typenan
+Benefit income frequencynan
+Gross amountnan
+Is the household responsible to pay shelter costs?nan
+Type of shelter costsnan
+Shelter costs amountnan
+Is the household responsible to pay utility costs separate from shelter costs?nan
+Utility costs detailed informationnan
+Select the utility costs you paynan
+Is anyone responsible to pay for adult or child care costs?nan
+Name of child/dependentnan
+Amount paidnan
+Frequency of paymentnan
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?nan
+Name of the personnan
+Expense Typenan
+Total cost per monthnan
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?nan
+Address or medical providernan
+Number of cars per week to the address indicatednan
+Number of cars per week from the address indicatednan
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,nan
+Is anyone in a training program at least 80 hours per
+month?nan
+If yes, provide the full namenan
+Is anyone working in exchange for goods and services
+(in-kind work)?nan
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?nan
+Is anyone volunteering?nan
+Yes, provide the full name.nan
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?nan
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?nan
+If yes, provide the name of the person or the Agency.nan
+Provide a phone numbernan
+Provide a valid addressnan
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?nan
+If yes, provide the name of the person or Agency.nan
+Provide a phone number.nan
+Provide a valid address.nan
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?nan
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?nan
+If yes, provide the full name of the person.nan
+Provide a valid phone numbernan
+What is your heating source?nan
+Provide the Company Name.nan
+Timestamp2024-02-24 02:48:16.631000
+Name, DOB, Address, Sexeasfsad
+DOBnan
+Addressnan
+Sexnan
+Language / IdiomaSpanish
+Race / RazaBlack or African American
+Phone number / Número de teléfonowasil
+Email address / Dirección de correo electróniconan
+Are you a U.S Citizen? / ¿Eres ciudadano americano?Yes
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)23232
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?No
+Do you have any of these programs?SNAP (Supplemental Nutrition Assistance Program)
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYour monthly income is less than $150 and your money in the bank is $100 or less
+Are you homeless? / ¿No tienes hogar?No
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?https://drive.google.com/open?id=192b8Rvh7ejrrQPzjcgNobPCSfiaX1FKC
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?nan
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?nan
+If yes, please check off your impairment type(s) nan
+What is your preferred method of communication?nan
+Has Massachusetts certified that you have a disability?nan
+Do other people live with you?No
+Total number in household.4
+List the members of your household.322323
+Has anyone worked in the last 60 days?No
+Income typeSelf-employement
+Employer name or informationnan
+Payment frequencynan
+Gross Earnings for Last 4 Weeks3232
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?No
+Income Typenan
+Benefit income frequencynan
+Gross amount323232
+Is the household responsible to pay shelter costs?Yes
+Type of shelter costsProperty taxes
+Shelter costs amountnan
+Is the household responsible to pay utility costs separate from shelter costs?nan
+Utility costs detailed informationnan
+Select the utility costs you payElectricity and/or gas (other than heating use);
+Is anyone responsible to pay for adult or child care costs?Yes
+Name of child/dependentnan
+Amount paidnan
+Frequency of paymentBiweekly
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?nan
+Name of the personnan
+Expense Typenan
+Total cost per monthnan
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?nan
+Address or medical providernan
+Number of cars per week to the address indicatednan
+Number of cars per week from the address indicatednan
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,nan
+Is anyone in a training program at least 80 hours per
+month?No
+If yes, provide the full namenan
+Is anyone working in exchange for goods and services
+(in-kind work)?Yes
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?nan
+Is anyone volunteering?nan
+Yes, provide the full name.nan
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?No
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?Yes
+If yes, provide the name of the person or the Agency.nan
+Provide a phone numbernan
+Provide a valid address233223
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?No
+If yes, provide the name of the person or Agency.nan
+Provide a phone number.nan
+Provide a valid address.nan
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?nan
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?Yes
+If yes, provide the full name of the person.nan
+Provide a valid phone numbernan
+What is your heating source?nan
+Provide the Company Name.nan
+Timestamp2024-02-24 02:51:37.787000
+Name, DOB, Address, Sex23232
+DOBnan
+Addressnan
+Sexnan
+Language / IdiomaSpanish
+Race / RazaAsian
+Phone number / Número de teléfono3232
+Email address / Dirección de correo electróniconan
+Are you a U.S Citizen? / ¿Eres ciudadano americano?Yes
+Social Security Number (If you are a U.S citizen) / Número de Seguro Social (Si eres ciudadano americano)323223
+Do you have Medicaid (MassHealth)? / ¿Tienes Medicaid (MassHealth)?Yes
+Do you have any of these programs?Lifeline
+(SNAP Eligibility) Select one of the following / Selecciona una de las siguientes opcionesYou have a current bank balance (savings and checking combined) under $3,001 and share your household with a person with a disability (a child, your spouse, a parent, or yourself)
+Are you homeless? / ¿No tienes hogar?nan
+Can you provide your signature? /¿Podrías darnos tu firma de autorización?https://drive.google.com/open?id=1PkJiwmVR0LgE5FveOe-nLHharrxwrkmb
+Do you have a Massachusetts Electronic Benefit Transfer (EBT) card? / ¿Tienes tarjeta EBT?nan
+Are you a person with a disability? /  ¿Tienes alguna discapacidad?nan
+If yes, please check off your impairment type(s) nan
+What is your preferred method of communication?nan
+Has Massachusetts certified that you have a disability?nan
+Do other people live with you?nan
+Total number in household.nan
+List the members of your household.nan
+Has anyone worked in the last 60 days?nan
+Income typenan
+Employer name or informationnan
+Payment frequencynan
+Gross Earnings for Last 4 Weeksnan
+Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?nan
+Income Typenan
+Benefit income frequencynan
+Gross amountnan
+Is the household responsible to pay shelter costs?nan
+Type of shelter costsnan
+Shelter costs amountnan
+Is the household responsible to pay utility costs separate from shelter costs?nan
+Utility costs detailed informationnan
+Select the utility costs you paynan
+Is anyone responsible to pay for adult or child care costs?nan
+Name of child/dependentnan
+Amount paidnan
+Frequency of paymentnan
+Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?nan
+Name of the personnan
+Expense Typenan
+Total cost per monthnan
+Does anyone travel to and/or from medical care (such as a pharmacy, doctor, therapist, etc.)?nan
+Address or medical providernan
+Number of cars per week to the address indicatednan
+Number of cars per week from the address indicatednan
+Cost for Parking, Public Transportation, Taxi Cab, Shuttle,nan
+Is anyone in a training program at least 80 hours per
+month?nan
+If yes, provide the full namenan
+Is anyone working in exchange for goods and services
+(in-kind work)?nan
+If yes, provide the full name.nan
+Is anyone doing an unpaid internship?nan
+Is anyone volunteering?nan
+Yes, provide the full name.nan
+Has anyone received SNAP benefits outside Massachusetts within the past 30 days?nan
+nannan
+Do you want to give us permission to contact a person or agency if we cannot reach you by phone?nan
+If yes, provide the name of the person or the Agency.nan
+Provide a phone numbernan
+Provide a valid addressnan
+Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?nan
+If yes, provide the name of the person or Agency.nan
+Provide a phone number.nan
+Provide a valid address.nan
+Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?nan
+Provide the name of the person or Agencynan
+Provide a valid contact number.nan
+Provide a Federal Employer Identification Number (Agency Only):nan
+Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?nan
+If yes, provide the full name of the person.nan
+Provide a valid phone numbernan
+What is your heating source?nan
+Provide the Company Name.nan

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF Click Interaction</title>
+    <style>
+      #pdf-container {
+        position: relative;
+        width: 500px;
+        height: auto;
+      }
+
+      .click-coordinates {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        border: 1px solid #ccc;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+      }
+
+      .pdf-nav-btns {
+        display: none;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="file" id="pdf-input" accept=".pdf" onchange="loadPDF(event)" />
+    <div id="pdf-container"></div>
+
+    <div class="pdf-nav-btns">
+      <button id="prevPageBtn" onclick="prevPage()">Previous</button>
+      <button id="nextPageBtn" onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.13.216/build/pdf.min.js"></script>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc =
+        "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.13.216/build/pdf.worker.min.js";
+
+      var pdfDoc = null;
+      var pageNum = 1;
+      var pageRendering = false;
+      var pageNumPending = null;
+      var previousCoordinates = [];
+
+      function loadPDF(event) {
+        var file = event.target.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+          var url = e.target.result;
+
+          pdfjsLib.getDocument({ url: url }).promise.then(function (pdf) {
+            pdfDoc = pdf;
+            document.querySelector(".pdf-nav-btns").style.display = "block";
+            renderPage(pageNum);
+          });
+        };
+
+        reader.readAsDataURL(file);
+      }
+
+      function renderPage(num) {
+        pageRendering = true;
+        pdfDoc.getPage(num).then(function (page) {
+          var viewport = page.getViewport({ scale: 1 });
+          var canvas = document.createElement("canvas");
+          var ctx = canvas.getContext("2d");
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+          document.getElementById("pdf-container").innerHTML = "";
+          document.getElementById("pdf-container").appendChild(canvas);
+
+          var renderContext = {
+            canvasContext: ctx,
+            viewport: viewport,
+          };
+          var renderTask = page.render(renderContext);
+
+          renderTask.promise.then(function () {
+            pageRendering = false;
+            if (pageNumPending !== null) {
+              renderPage(pageNumPending);
+              pageNumPending = null;
+            }
+          });
+
+          canvas.addEventListener("click", function (event) {
+            var rect = canvas.getBoundingClientRect();
+            var x = event.clientX - rect.left;
+            var y = event.clientY - rect.top;
+
+            x -= 13;
+            y -= 12;
+
+            var coordinatesElement = document.createElement("div");
+            coordinatesElement.className = "click-coordinates";
+            coordinatesElement.textContent =
+              `Click on page ${pageNum} at PDF coordinates: ` +
+              x.toFixed(2) +
+              ", " +
+              y.toFixed(2);
+
+            var offsetX = 10;
+            var offsetY = 10;
+            for (var i = 0; i < previousCoordinates.length; i++) {
+              var prevX = previousCoordinates[i].x;
+              var prevY = previousCoordinates[i].y;
+              if (
+                Math.abs(prevX - event.pageX) < 100 &&
+                Math.abs(prevY - event.pageY) < 20
+              ) {
+                offsetX += 20;
+                offsetY += 25;
+              }
+            }
+
+            // Position the coordinates element relative to the click position
+            coordinatesElement.style.left = event.pageX + offsetX + "px";
+            coordinatesElement.style.top = event.pageY + offsetY + "px";
+
+            document.body.appendChild(coordinatesElement);
+
+            // Store the coordinates for future reference
+            previousCoordinates.push({
+              x: event.pageX + offsetX,
+              y: event.pageY + offsetY,
+            });
+
+            // Remove the coordinates element after a short delay (e.g., 2 seconds)
+            setTimeout(function () {
+              coordinatesElement.remove();
+            }, 3000);
+          });
+        });
+
+        document.getElementById("prevPageBtn").disabled = pageNum <= 1;
+        document.getElementById("nextPageBtn").disabled =
+          pageNum >= pdfDoc.numPages;
+      }
+
+      function queueRenderPage(num) {
+        if (pageRendering) {
+          pageNumPending = num;
+        } else {
+          renderPage(num);
+        }
+      }
+
+      function prevPage() {
+        if (pageNum <= 1) {
+          return;
+        }
+        pageNum--;
+        queueRenderPage(pageNum);
+      }
+
+      function nextPage() {
+        if (pageNum >= pdfDoc.numPages) {
+          return;
+        }
+        pageNum++;
+        queueRenderPage(pageNum);
+      }
+    </script>
+  </body>
+</html>
