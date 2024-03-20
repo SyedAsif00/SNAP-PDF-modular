@@ -161,6 +161,7 @@
 
           pdfjsLib.getDocument({ url: url }).promise.then(function (pdf) {
             pdfDoc = pdf;
+            pageNum = 1;
             document.querySelector(".pdf-nav-btns").style.display = "block";
             renderPage(pageNum);
           });

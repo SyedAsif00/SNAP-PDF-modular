@@ -10,7 +10,7 @@ pdf_locs = {
         },
         "page": 1,
     },
-    "First Name_pg1": {
+    "First Name": {
         "type": "Text Field",
         "position": {
             "x0": 213.7209930419922,
@@ -80,27 +80,27 @@ pdf_locs = {
         },
         "page": 1,
     },
-    "Are you homeless_Yes?": {
+    "Are you homeless_Yes": {
         "type": "Checkbox",
         "position": {
-            "x0": 412.7229919433594,
+            "x0": 390.7229919433594,
             "y0": 373.9460144042969,
             "x1": 473.2860107421875,
             "y1": 394.4549865722656,
         },
         "page": 1,
     },
-    "Are you homeless_No?": {
+    "Are you homeless_No": {
         "type": "Checkbox",
         "position": {
-            "x0": 454.7229919433594,
+            "x0": 500.7229919433594,
             "y0": 373.9460144042969,
             "x1": 473.2860107421875,
             "y1": 394.4549865722656,
         },
         "page": 1,
     },
-    "If you do not want DTA to text you, please check this box_Yes": {
+    "If you do not want DTA to text you, please check this box": {
         "type": "Checkbox",
         "position": {
             "x0": 309.79998779296875,
@@ -110,16 +110,7 @@ pdf_locs = {
         },
         "page": 1,
     },
-    "If you do not want DTA to text you, please check this box_No": {
-        "type": "Checkbox",
-        "position": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0,
-        },
-        "page": 1,
-    },
+   
     "Signature": {
         "type": "Text Field",
         "position": {
@@ -210,16 +201,7 @@ pdf_locs = {
         },
         "page": 2,
     },
-    "If yes, please check off your impairment type(s)_Other": {
-        "type": "Checkbox",
-        "position": {
-            "x0": 430.6650085449219,
-            "y0": 443.3110046386719,
-            "x1": 384.06500244140625,
-            "y1": 464.71099853515625,
-        },
-        "page": 2,
-    },
+   
     "Other:": {
         "type": "Text Field",
         "position": {
@@ -310,7 +292,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Male": {
+    "Gender_Male": {
         "type": "Checkbox",
         "position": {
             "x0": 355.4200134277344,
@@ -320,7 +302,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Female": {
+    "Gender_Female": {
         "type": "Checkbox",
         "position": {
             "x0": 420.43798828125,
@@ -330,7 +312,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Are you pregnant?": {
+    "Are you pregnant?_Yes": {
         "type": "Text Field",
         "position": {
             "x0": 511.5820007324219,
@@ -340,9 +322,18 @@ pdf_locs = {
         },
         "page": 3,
     },
+    "Are you pregnant?_No": {
+        "type": "Text Field",
+        "position": {
+            "x0": 541.5820007324219,
+            "y0": 82.30902099609375,
+            "x1": 523.14599609375,
+            "y1": 93.87298583984375,
+        },
+        "page": 3,
+    },
     "Are you a U.S. Citizen?_Yes": {
 
-        #Click on page 3 at PDF coordinates: 168.00 117.20
         "type": "Text Field",
         "position": {
             "x0": 154.89100646972656,
@@ -372,7 +363,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Black or African American": {
+    "Race_Black or African American": {
         "type": "Checkbox",
         "position": {
             "x0": 41.563499450683594,
@@ -382,7 +373,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "American Indian or Alaska Native": {
+    "Race_American Indian or Alaska Native": {
         "type": "Checkbox",
         "position": {
             "x0": 191.99600219726562,
@@ -392,7 +383,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "White": {
+    "Race_White": {
         "type": "Checkbox",
         "position": {
             "x0": 419.5559997558594,
@@ -402,7 +393,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Asian": {
+    "Race_Asian": {
         "type": "Checkbox",
         "position": {
             "x0": 41.563499450683594,
@@ -412,7 +403,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Native Hawaiian or Other Pacific Islander": {
+    "Race_Native Hawaiian or Other Pacific Islander": {
         "type": "Checkbox",
         "position": {
             "x0": 191.99600219726562,
@@ -422,7 +413,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Hispanic or Latino": {
+    "Ethnicity_HispanicOrLatino": {
         "type": "Checkbox",
         "position": {
             "x0": 41.44710159301758,
@@ -432,7 +423,7 @@ pdf_locs = {
         },
         "page": 3,
     },
-    "Not Hispanic or Latino": {
+    "Ethnicity_NotHispanicOrLatino": {
         "type": "Checkbox",
         "position": {
             "x0": 192.1009979248047,
