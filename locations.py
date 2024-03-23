@@ -3,8 +3,8 @@ pdf_locs = {
     "Last Name_pg1": {
         "type": "Text Field",
         "position": {
-            "x0": 21.959999084472656,
-            "y0": 263.4000244140625,
+            "x0": 31.959999084472656,
+            "y0": 283.4000244140625,
             "x1": 211.1999969482422,
             "y1": 289.5820007324219,
         },
@@ -13,8 +13,8 @@ pdf_locs = {
     "First Name": {
         "type": "Text Field",
         "position": {
-            "x0": 213.7209930419922,
-            "y0": 263.4000244140625,
+            "x0": 223.7209930419922,
+            "y0": 283.4000244140625,
             "x1": 424.2720031738281,
             "y1": 289.5820007324219,
         },
@@ -23,8 +23,8 @@ pdf_locs = {
     "Middle Name_pg1": {
         "type": "Text Field",
         "position": {
-            "x0": 426.3210144042969,
-            "y0": 263.4000244140625,
+            "x0": 436.3210144042969,
+            "y0": 283.4000244140625,
             "x1": 590.1599731445312,
             "y1": 289.5820007324219,
         },
@@ -33,38 +33,38 @@ pdf_locs = {
     "Home Address_pg1": {
         "type": "Text Field",
         "position": {
-            "x0": 21.959999084472656,
-            "y0": 306.6000061035156,
+            "x0": 32.959999084472656,
+            "y0": 325.6000061035156,
             "x1": 310.5379943847656,
             "y1": 332.7820129394531,
         },
         "page": 1,
     },
-    "City State Zip Code_pg1": {
+    "City State Zip Code_Home": {
         "type": "Text Field",
         "position": {
-            "x0": 313.3999938964844,
-            "y0": 306.6000061035156,
+            "x0": 330.3999938964844,
+            "y0": 325.6000061035156,
             "x1": 589.6510009765625,
             "y1": 332.7820129394531,
         },
         "page": 1,
     },
-    "Mailing Address if different_pg1": {
+    "Mailing Address_if different": {
         "type": "Text Field",
         "position": {
-            "x0": 21.959999084472656,
-            "y0": 349.79998779296875,
+            "x0": 32.959999084472656,
+            "y0": 364.79998779296875,
             "x1": 310.5379943847656,
             "y1": 375.98199462890625,
         },
         "page": 1,
     },
-    "City State Zip Code if different": {
+    "City State Zip Code if_mailing": {
         "type": "Text Field",
         "position": {
-            "x0": 313.3999938964844,
-            "y0": 349.79998779296875,
+            "x0": 323.3999938964844,
+            "y0": 364.79998779296875,
             "x1": 589.6510009765625,
             "y1": 375.98199462890625,
         },
@@ -73,8 +73,8 @@ pdf_locs = {
     "Phone Number": {
         "type": "Text Field",
         "position": {
-            "x0": 21.959999084472656,
-            "y0": 391.67999267578125,
+            "x0": 31.959999084472656,
+            "y0": 406.67999267578125,
             "x1": 310.5379943847656,
             "y1": 417.86199951171875,
         },
@@ -83,8 +83,8 @@ pdf_locs = {
     "Are you homeless_Yes": {
         "type": "Checkbox",
         "position": {
-            "x0": 390.7229919433594,
-            "y0": 373.9460144042969,
+            "x0": 370.7229919433594,
+            "y0": 388.9460144042969,
             "x1": 473.2860107421875,
             "y1": 394.4549865722656,
         },
@@ -93,8 +93,8 @@ pdf_locs = {
     "Are you homeless_No": {
         "type": "Checkbox",
         "position": {
-            "x0": 500.7229919433594,
-            "y0": 373.9460144042969,
+            "x0": 454.7229919433594,
+            "y0": 387.9460144042969,
             "x1": 473.2860107421875,
             "y1": 394.4549865722656,
         },
@@ -134,8 +134,8 @@ pdf_locs = {
     "Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 378.1419982910156,
-            "y0": 184.1820068359375,
+            "x0": 385.1419982910156,
+            "y0": 200.1820068359375,
             "x1": 437.60400390625,
             "y1": 202.69097900390625,
         },
@@ -144,8 +144,8 @@ pdf_locs = {
     "Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 420.1419982910156,
-            "y0": 184.1820068359375,
+            "x0": 429.1419982910156,
+            "y0": 200.1820068359375,
             "x1": 437.60400390625,
             "y1": 202.69097900390625,
         },
@@ -215,8 +215,8 @@ pdf_locs = {
     "What is your preferred method of communication?_InPerson": {
         "type": "Checkbox",
         "position": {
-            "x0": 230.14500427246094,
-            "y0": 490.510986328125,
+            "x0": 228.14500427246094,
+            "y0": 502.510986328125,
             "x1": 246.5449981689453,
             "y1": 507.9110107421875,
         },
@@ -226,7 +226,7 @@ pdf_locs = {
         "type": "Checkbox",
         "position": {
             "x0": 228.14500427246094,
-            "y0": 516.9110107421875,
+            "y0": 527.9110107421875,
             "x1": 246.5449981689453,
             "y1": 534.31103515625,
         },
@@ -255,8 +255,8 @@ pdf_locs = {
     "Has Massachusetts certified that you have a disability?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 240.30499267578125,
-            "y0": 559.3909912109375,
+            "x0": 249.30499267578125,
+            "y0": 574.3909912109375,
             "x1": 300.76300048828125,
             "y1": 576.8460083007812,
         },
@@ -265,8 +265,8 @@ pdf_locs = {
     "Has Massachusetts certified that you have a disability?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 283.30499267578125,
-            "y0": 559.3909912109375,
+            "x0": 292.30499267578125,
+            "y0": 574.3909912109375,
             "x1": 300.76300048828125,
             "y1": 576.8460083007812,
         },
@@ -295,8 +295,8 @@ pdf_locs = {
     "Gender_Male": {
         "type": "Checkbox",
         "position": {
-            "x0": 355.4200134277344,
-            "y0": 82.2550048828125,
+            "x0": 349.4200134277344,
+            "y0": 87.2550048828125,
             "x1": 366.43798828125,
             "y1": 93.708984375,
         },
@@ -305,8 +305,8 @@ pdf_locs = {
     "Gender_Female": {
         "type": "Checkbox",
         "position": {
-            "x0": 420.43798828125,
-            "y0": 82.2550048828125,
+            "x0": 413.43798828125,
+            "y0": 87.2550048828125,
             "x1": 431.45599365234375,
             "y1": 93.708984375,
         },
@@ -315,8 +315,8 @@ pdf_locs = {
     "Are you pregnant?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 511.5820007324219,
-            "y0": 82.30902099609375,
+            "x0": 471.5820007324219,
+            "y0": 91.30902099609375,
             "x1": 523.14599609375,
             "y1": 93.87298583984375,
         },
@@ -325,8 +325,8 @@ pdf_locs = {
     "Are you pregnant?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 541.5820007324219,
-            "y0": 82.30902099609375,
+            "x0": 513.5820007324219,
+            "y0": 91.30902099609375,
             "x1": 523.14599609375,
             "y1": 93.87298583984375,
         },
@@ -356,8 +356,8 @@ pdf_locs = {
     "What language do you prefer to speak": {
         "type": "Text Field",
         "position": {
-            "x0": 311.0,
-            "y0": 127.280029296875,
+            "x0": 321.0,
+            "y0": 137.280029296875,
             "x1": 461.65899658203125,
             "y1": 150.20001220703125,
         },
@@ -437,7 +437,7 @@ pdf_locs = {
         "type": "Text Field",
         "position": {
             "x0": 207.69000244140625,
-            "y0": 373.5090026855469,
+            "y0": 393.5090026855469,
             "x1": 259.20001220703125,
             "y1": 395.01800537109375,
         },
@@ -446,8 +446,8 @@ pdf_locs = {
     "Do you live with other people?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 247.69000244140625,
-            "y0": 383.5090026855469,
+            "x0": 249.69000244140625,
+            "y0": 392.5090026855469,
             "x1": 259.20001220703125,
             "y1": 395.01800537109375,
         },
@@ -697,8 +697,8 @@ pdf_locs = {
         #Click on page 4 at PDF coordinates: 238.00 57.20
         "type": "Text Field",
         "position": {
-            "x0": 240.927001953125,
-            "y0": 55.98199462890625,
+            "x0": 249.927001953125,
+            "y0": 70.98199462890625,
             "x1": 300.4360046386719,
             "y1": 75.49102783203125,
         },
@@ -707,8 +707,8 @@ pdf_locs = {
     "Has anyone worked in the last 60 days?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 282.927001953125,
-            "y0": 56.98199462890625,
+            "x0": 290.927001953125,
+            "y0": 72.98199462890625,
             "x1": 300.4360046386719,
             "y1": 75.49102783203125,
         },
@@ -1137,8 +1137,8 @@ pdf_locs = {
     "Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 480.72802734375,
-            "y0": 420.9639892578125,
+            "x0": 497.72802734375,
+            "y0": 445.9639892578125,
             "x1": 548.1820068359375,
             "y1": 448.5,
         },
@@ -1147,8 +1147,8 @@ pdf_locs = {
     "Does anyone receive any other type of income such as Unemployment Compensation, Child Support, Social Security, SSI, Workers’ Compensation, Veterans’ Benefits, Pensions or Rental Income?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 536.72802734375,
-            "y0": 436.9639892578125,
+            "x0": 538.72802734375,
+            "y0": 445.9639892578125,
             "x1": 548.1820068359375,
             "y1": 448.5,
         },
@@ -1397,8 +1397,8 @@ pdf_locs = {
     "Shelter costs_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 290.7090148925781,
-            "y0": 56.98199462890625,
+            "x0": 301.7090148925781,
+            "y0": 72.98199462890625,
             "x1": 351.2860107421875,
             "y1": 75.43597412109375,
         },
@@ -1407,8 +1407,8 @@ pdf_locs = {
     "Shelter costs_No": {
         "type": "Text Field",
         "position": {
-            "x0": 330.7090148925781,
-            "y0": 56.98199462890625,
+            "x0": 340.7090148925781,
+            "y0": 73.98199462890625,
             "x1": 351.2860107421875,
             "y1": 75.43597412109375,
         },
@@ -1894,21 +1894,21 @@ pdf_locs = {
         },
         "page": 5,
     },
-    "Utility costs_Yes": {
+    "Is the household responsible to pay utility costs separate from shelter costs?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 422.85400390625,
-            "y0": 342.9630126953125,
+            "x0": 430.85400390625,
+            "y0": 358.9630126953125,
             "x1": 481.2539978027344,
             "y1": 361.3630065917969,
         },
         "page": 5,
     },
-    "Utility costs_No": {
+    "Is the household responsible to pay utility costs separate from shelter costs?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 465.85400390625,
-            "y0": 342.9630126953125,
+            "x0": 473.85400390625,
+            "y0": 356.9630126953125,
             "x1": 481.2539978027344,
             "y1": 361.3630065917969,
         },
@@ -1968,8 +1968,8 @@ pdf_locs = {
         #Click on page 6 at PDF coordinates: 339.00 70.00
         "type": "Text Field",
         "position": {
-            "x0": 326.3210144042969,
-            "y0": 55.635986328125,
+            "x0": 336.3210144042969,
+            "y0": 72.635986328125,
             "x1": 387.9830017089844,
             "y1": 75.9730224609375,
         },
@@ -1978,8 +1978,8 @@ pdf_locs = {
     "Is anyone responsible to pay for adult or child care costs?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 370.3210144042969,
-            "y0": 55.635986328125,
+            "x0": 378.3210144042969,
+            "y0": 73.635986328125,
             "x1": 387.9830017089844,
             "y1": 75.9730224609375,
         },
@@ -2265,11 +2265,21 @@ pdf_locs = {
         },
         "page": 6,
     },
-    "Travel costs to and/or from dependent care provider": {
+    "Does anyone travel to and/or from a dependent care provider?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 403.5669860839844,
-            "y0": 300.97100830078125,
+            "x0": 364.5669860839844,
+            "y0": 309.97100830078125,
+            "x1": 415.5799865722656,
+            "y1": 312.65899658203125,
+        },
+        "page": 6,
+    },
+    "Does anyone travel to and/or from a dependent care provider?_No": {
+        "type": "Text Field",
+        "position": {
+            "x0": 405.5669860839844,
+            "y0": 309.97100830078125,
             "x1": 415.5799865722656,
             "y1": 312.65899658203125,
         },
@@ -2478,8 +2488,8 @@ pdf_locs = {
     "Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 430.3479919433594,
-            "y0": 58.38201904296875,
+            "x0": 440.3479919433594,
+            "y0": 75.38201904296875,
             "x1": 490.96600341796875,
             "y1": 77.781982421875,
         },
@@ -2488,8 +2498,8 @@ pdf_locs = {
     "Does anyone who is at least 60 years old and/or disabled have out-of-pocket medical expenses?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 475.3479919433594,
-            "y0": 58.38201904296875,
+            "x0": 482.3479919433594,
+            "y0": 74.38201904296875,
             "x1": 490.96600341796875,
             "y1": 77.781982421875,
         },
@@ -2708,8 +2718,8 @@ pdf_locs = {
     "Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc.)?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 36.55909729003906,
-            "y0": 465.4590148925781,
+            "x0": 45.55909729003906,
+            "y0": 481.4590148925781,
             "x1": 96.01360321044922,
             "y1": 483.9949951171875,
         },
@@ -2718,8 +2728,8 @@ pdf_locs = {
     "Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc.)?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 70.55909729003906,
-            "y0": 465.4590148925781,
+            "x0": 86.55909729003906,
+            "y0": 481.4590148925781,
             "x1": 96.01360321044922,
             "y1": 483.9949951171875,
         },
@@ -2878,8 +2888,8 @@ pdf_locs = {
     "Is anyone in a training program at least 80 hours per month?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 203.26300048828125,
-            "y0": 82.3270263671875,
+            "x0": 213.26300048828125,
+            "y0": 99.3270263671875,
             "x1": 262.79901123046875,
             "y1": 102.0269775390625,
         },
@@ -2888,8 +2898,8 @@ pdf_locs = {
     "Is anyone in a training program at least 80 hours per month?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 244.26300048828125,
-            "y0": 82.3270263671875,
+            "x0": 253.26300048828125,
+            "y0": 99.3270263671875,
             "x1": 262.79901123046875,
             "y1": 102.0269775390625,
         },
@@ -2918,8 +2928,8 @@ pdf_locs = {
     "Is anyone working in exchange for goods and services (in-kind work)?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 202.29100036621094,
-            "y0": 174.30902099609375,
+            "x0": 212.29100036621094,
+            "y0": 189.30902099609375,
             "x1": 262.7449951171875,
             "y1": 192.8179931640625,
         },
@@ -2928,8 +2938,8 @@ pdf_locs = {
     "Is anyone working in exchange for goods and services (in-kind work)?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 245.29100036621094,
-            "y0": 174.30902099609375,
+            "x0": 253.29100036621094,
+            "y0": 189.30902099609375,
             "x1": 262.7449951171875,
             "y1": 192.8179931640625,
         },
@@ -2958,8 +2968,8 @@ pdf_locs = {
     "Is anyone doing an unpaid internship?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 244.23599243164062,
-            "y0": 236.41497802734375,
+            "x0": 212.23599243164062,
+            "y0": 252.41497802734375,
             "x1": 262.85400390625,
             "y1": 255.114990234375,
         },
@@ -2968,8 +2978,8 @@ pdf_locs = {
     "Is anyone doing an unpaid internship?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 245.23599243164062,
-            "y0": 236.41497802734375,
+            "x0": 254.23599243164062,
+            "y0": 252.41497802734375,
             "x1": 262.85400390625,
             "y1": 255.114990234375,
         },
@@ -2998,8 +3008,8 @@ pdf_locs = {
     "Is anyone volunteering?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 203.23699951171875,
-            "y0": 312.12799072265625,
+            "x0": 213.23699951171875,
+            "y0": 328.12799072265625,
             "x1": 262.77301025390625,
             "y1": 331.62298583984375,
         },
@@ -3008,8 +3018,8 @@ pdf_locs = {
     "Is anyone volunteering?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 249.23699951171875,
-            "y0": 312.12799072265625,
+            "x0": 254.23699951171875,
+            "y0": 329.12799072265625,
             "x1": 262.77301025390625,
             "y1": 331.62298583984375,
         },
@@ -3038,8 +3048,8 @@ pdf_locs = {
     "Has anyone received SNAP benefits outside of MA within past 30 days?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 528.4559936523438,
-            "y0": 400.7380065917969,
+            "x0": 495.4559936523438,
+            "y0": 416.7380065917969,
             "x1": 545.989990234375,
             "y1": 420.2359924316406,
         },
@@ -3048,14 +3058,14 @@ pdf_locs = {
     "Has anyone received SNAP benefits outside of MA within past 30 days?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 526.4559936523438,
-            "y0": 400.7380065917969,
+            "x0": 537.4559936523438,
+            "y0": 416.7380065917969,
             "x1": 545.989990234375,
             "y1": 420.2359924316406,
         },
         "page": 8,
     },
-    "Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?": {
+    "Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?_Yes": {
         "type": "Text Field",
         "position": {
             "x0": 102.94000244140625,
@@ -3065,21 +3075,31 @@ pdf_locs = {
         },
         "page": 8,
     },
-    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_Yes*": {
+    "Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 430.4010009765625,
-            "y0": 70.41802978515625,
+            "x0": 102.94000244140625,
+            "y0": 451.9200134277344,
+            "x1": 539.9500122070312,
+            "y1": 465.239990234375,
+        },
+        "page": 8,
+    },
+    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_Yes": {
+        "type": "Text Field",
+        "position": {
+            "x0": 440.4010009765625,
+            "y0": 85.41802978515625,
             "x1": 490.9209899902344,
             "y1": 87.93798828125,
         },
         "page": 9,
     },
-    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_No*": {
+    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 470.4010009765625,
-            "y0": 70.41802978515625,
+            "x0": 482.4010009765625,
+            "y0": 86.41802978515625,
             "x1": 490.9209899902344,
             "y1": 87.93798828125,
         },
@@ -3115,21 +3135,21 @@ pdf_locs = {
         },
         "page": 9,
     },
-    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_Yes*": {
+    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 432.64300537109375,
-            "y0": 345.1650085449219,
+            "x0": 440.64300537109375,
+            "y0": 361.1650085449219,
             "x1": 491.1629943847656,
             "y1": 362.68499755859375,
         },
         "page": 9,
     },
-    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_No*": {
+    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 472.64300537109375,
-            "y0": 345.1650085449219,
+            "x0": 481.64300537109375,
+            "y0": 360.1650085449219,
             "x1": 491.1629943847656,
             "y1": 362.68499755859375,
         },
@@ -3165,11 +3185,21 @@ pdf_locs = {
         },
         "page": 9,
     },
-    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?*": {
+    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?_Yes": {
         "type": "Text Field",
         "position": {
-            "x0": 512.2420043945312,
-            "y0": 68.614013671875,
+            "x0": 472.2420043945312,
+            "y0": 77.614013671875,
+            "x1": 523.7620239257812,
+            "y1": 80.13397216796875,
+        },
+        "page": 10,
+    },
+    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?_No": {
+        "type": "Text Field",
+        "position": {
+            "x0": 515.2420043945312,
+            "y0": 75.614013671875,
             "x1": 523.7620239257812,
             "y1": 80.13397216796875,
         },
@@ -3205,23 +3235,23 @@ pdf_locs = {
         },
         "page": 10,
     },
-    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?*_Yes": {
+    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?_Yes": {
         "type": "Text Field",
 
         ## 476 332
         "position": {
-            "x0": 464.072021484375,
-            "y0": 320.031005859375,
+            "x0": 473.072021484375,
+            "y0": 335.031005859375,
             "x1": 523.5919799804688,
             "y1": 337.5509948730469,
         },
         "page": 10,
     },
-    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?*_No": {
+    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?_No": {
         "type": "Text Field",
         "position": {
-            "x0": 504.072021484375,
-            "y0": 320.031005859375,
+            "x0": 514.072021484375,
+            "y0": 336.031005859375,
             "x1": 523.5919799804688,
             "y1": 337.5509948730469,
         },
