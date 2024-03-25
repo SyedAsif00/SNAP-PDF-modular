@@ -4,29 +4,28 @@
 # The keys correspond to the form field names, and the values are what we want to set for those fields.
 
 sample_data = {
-    "Name": {"value": "Syed Asif Ullah", "type": "Full Name"},
+    "Name": {
+        "value": "John Will Smith",
+        "type": "Full Name"
+    },
     "Home Address": {
-        "value": "ABC street",
+        "value": "123 Main Street",
         "type": "Text Field"
     },
     "City, State, Zip Code_Home": {
-        "value": "abc, XYZ, 28328",
+        "value": "Anytown, USA, 12345",
         "type": "Text Field"
     },
     "Mailing Address": {
-        "value": "DEF street abc town",
-        "type": "Text Field"
-    },
-    "Mailing Address": {
-        "value": "DEF street abc town",
+        "value": "456 Elm Street",
         "type": "Text Field"
     },
     "City State Zip Code if_mailing": {
-        "value": "ABC, hjghg, 28378",
+        "value": "Othertown, USA, 54321",
         "type": "Text Field"
     },
     "Phone Number": {
-        "value": "0198989898989889",
+        "value": "555-123-4567",
         "type": "Text Field"
     },
     "Are you homeless": {
@@ -34,7 +33,7 @@ sample_data = {
         "type": "Yes/No"
     },
     "If you do not want DTA to text you, please check this box": {
-        "value": "",
+        "value": True,
         "type": "Single Checkbox"
     }, 
     "Do you have a Massachusetts Electronic Benefits Transfer (EBT) card?": {
@@ -42,23 +41,23 @@ sample_data = {
         "type": "Yes/No"
     },
     "Disability": {
-        "value": [""],
+        "value": ["Physical","Intellectual/Cognitive"],
         "type": "Multiple Options"
     },
     "Impairment Types": {
-        "value": [""],
+        "value": ["Hearing","Emotional/Mental Health","Visual"],
         "type": "Multiple Options"
     },
      "Impairment Other": {
-        "value": "", 
+        "value": "Cognitive Impairments", 
         "type": "Text Field"
     },
      "Communication Methods": {
-        "value": ["InPerson"],
+        "value": ["InPerson","Video Relay Services VRS","Telephone"],
         "type": "Multiple Options"
     },
      "VRS Phone Number": {
-        "value": "",
+        "value": "333-555-8554",
         "type": "Text Field"
     },
      "Has Massachusetts certified that you have a disability?": {
@@ -66,11 +65,11 @@ sample_data = {
         "type": "Yes/No"
     },
     "Social Security Number": {
-        "value": "737267",
+        "value": "123-45-5569",
         "type": "Text Field"
     },
     "Date of Birth": {
-        "value": "",
+        "value": "4 oct 2003",
         "type": "Text Field"
     },
     "Gender": {
@@ -82,7 +81,7 @@ sample_data = {
         "type": "Yes/No"
     },
     "Are you a U.S. citizen": {
-        "value": "",  # Can be Yes/No
+        "value": "Yes",  # Can be Yes/No
         "type": "Yes/No"
     },
     "Language preference" : {
@@ -90,13 +89,14 @@ sample_data = {
         "type":"Text Field"
     },
     "Ethnicity": {
-        "value": "",  
+        "value": "Hispanic or Latino",  
         "type": "Single Select"
     },
     "Race": {
-        "value": "",  
+        "value": "Asian",  
         "type": "Single Select"
     },
+
     "Do other poeple live with you" : {
         "value" : "Yes",
         "type" : "Yes/No"
@@ -174,31 +174,40 @@ sample_data = {
 
 
    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
-        "value": "No",  
+        "value": "Yes",  
         "type": "Yes/No"
     },
-    "Assisting Person or Agency Name": {"value": "abc", "type": "Text Field"},
-    "Assisting Person or Agency Phone": {"value": "123-456-7890", "type": "Text Field"},
-    "Assisting Person or Agency Address": {"value": "abc street", "type": "Text Field"},
+    "Assisting Person or Agency Name": {
+        "value": "Community Health Services",
+        "type": "Text Field"
+    },
+    "Assisting Person or Agency Phone": {
+        "value": "(555) 123-4567",
+        "type": "Text Field"
+    },
+    "Assisting Person or Agency Address": {
+        "value": "123 Main Street, Suite 100",
+        "type": "Text Field"
+    },
     ###
     
 
     ## authorize to release information
 
     "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {
-        "value": "No",
+        "value": "Yes",
         "type": "Yes/No"
     },
     "DTA Agent Name": {
-        "value": "xyz",
+        "value": "Jane Smith",
         "type": "Text Field"
     },
     "DTA Agent Phone": {
-        "value": "555-123-4567",
+        "value": "(555) 987-6543",
         "type": "Text Field"
     },
     "DTA Agent Address": {
-        "value": "def street ",
+        "value": "789 Elm Street, Suite 200",
         "type": "Text Field"
     },
     ### 
@@ -211,15 +220,15 @@ sample_data = {
         "type": "Yes/No"
     },
     "Representative Name": {
-        "value": "abc",
+        "value": "Smith & Associates Legal Services",
         "type": "Text Field"
     },
     "Representative Phone": {
-        "value": "887-2232-3",
+        "value": "(555) 555-5555",
         "type": "Text Field"
     },
     "Representative FEIN": {
-        "value": "82",
+        "value": "123456789",
         "type": "Text Field"
     },
     ##
@@ -231,15 +240,15 @@ sample_data = {
         "type": "Yes/No"
     },
     "EBT Representative Name": {
-        "value": "xyz",
+        "value": "Food Assistance Services",
         "type": "Text Field"
     },
     "EBT Representative Phone": {
-        "value": "555-987-6543",
+        "value": "(555) 123-4567",
         "type": "Text Field"
     },
     "EBT Representative Address": {
-        "value": "abcdef street ",
+        "value": "789 Oak Avenue",
         "type": "Text Field"
     },
     #

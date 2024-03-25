@@ -29,11 +29,13 @@ key_to_field_info = {
         "type": "Single Select",
         "options": ["HispanicOrLatino", "NotHispanicOrLatino"]
     },
-     "Race": {
+
+    "Race": {
         "field_id_prefix": "Race_",
         "type": "Single Select",
         "options": ["Black or African American", "American Indian or Alaska Native", "White","Asian","Native Hawaiian or Other Pacific Islander"]
     },
+
     "Do other poeple live with you": {"field_id_prefix": "Do you live with other people?_", "type": "Yes/No"},
     "Disability": {"field_id_prefix": "Are you a person with a disability?_", "type": "Multiple Options"},
     "Has anyone worked in the last 60 days?": {"field_id_prefix": "Has anyone worked in the last 60 days?_", "type": "Yes/No"},
@@ -197,6 +199,7 @@ def map_fields(json_data):
         elif field_info["type"] == "Single Checkbox":
             mapped_data[field_info["field_id"]] = {"value": "check" if values["value"] else "", "type": "Checkbox"}
 
+
         # Handle multiple options
         elif field_info["type"] == "Multiple Options":
             for option in values["value"]:  # Expecting a list of selected options
@@ -205,12 +208,14 @@ def map_fields(json_data):
 
         # Handle Single Select fields
         elif field_info["type"] == "Single Select":
+            # Assuming the options are provided in the values under a 'options' key
             for option in field_info['options']:
                 option_id = f"{field_info['field_id_prefix']}{option.replace(' ', '')}"  # Spaces removed for key consistency
                 if values["value"] == option:
                     mapped_data[option_id] = {"value": "check", "type": "Checkbox"}
                 else:
                     mapped_data[option_id] = {"value": "", "type": "Checkbox"}
+
 
     return mapped_data
 
