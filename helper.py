@@ -49,24 +49,111 @@ key_to_field_info = {
     "Is anyone volunteering?": {"field_id_prefix": "Is anyone volunteering?_", "type": "Yes/No"},
     "Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc.)?": {"field_id_prefix": "Does anyone travel to and/or from medical care such as a pharmacy, doctor, therapist, etc.)?_", "type": "Yes/No"},
     "Has anyone received SNAP benefits outside of MA within past 30 days?": {"field_id_prefix": "Has anyone received SNAP benefits outside of MA within past 30 days?_", "type": "Yes/No"},
-    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {"field_id_prefix": "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_", "type": "Yes/No"},
-    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {"field_id_prefix": "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_", "type": "Yes/No"},
-    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?": {"field_id_prefix": "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?_", "type": "Yes/No"},
-    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?": {"field_id_prefix": "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?_", "type": "Yes/No"},
     "If you do not want DTA to text you, please check this box": {"field_id": "If you do not want DTA to text you, please check this box", "type": "Single Checkbox"},
+   
+    ## assissting with application##
+    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
+        "field_id_prefix": "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?_", "type": "Yes/No"
+    },
+    "Assisting Person or Agency Name": {
+        "field_id": "Assisting with Applicatioin - Name of Person or Agency", "type": "Text Field"
+    },
+    "Assisting Person or Agency Phone": {
+        "field_id": "Assisting with Application - Phone Number", "type": "Text Field"
+    },
+    "Assisting Person or Agency Address": {
+        "field_id": "Assisting with Application - Address", "type": "Text Field"
+    },
+    ## 
+    # authorize to release info 
+    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {
+        "field_id_prefix": "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?_", "type": "Yes/No"
+    },
+    "DTA Agent Name": {
+        "field_id": "Authorization to Release Information - Name of Person or Agency", "type": "Text Field"
+    },
+    "DTA Agent Phone": {
+        "field_id": "Authorizaton to Release Information - Phone Number", "type": "Text Field"
+    },
+    "DTA Agent Address": {
+        "field_id": "Authorization to Release Information - Address", "type": "Text Field"
+    },
+    ##
+    #authorize representative for certification
+    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?": {
+        "field_id_prefix": "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?_", "type": "Yes/No"
+    },
+    "Representative Name": {
+        "field_id": "Authorized Representative for Certification - Name of Person or Agency", "type": "Text Field"
+    },
+    "Representative Phone": {
+        "field_id": "Authorized Representative for Certification - Phone Number", "type": "Text Field"
+    },
+    "Representative FEIN": {
+        "field_id": "Federal Employer ID Number - Agency Only", "type": "Text Field"
+    },
+    #
+    # authorized representative for EBT transactions
+    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?": {
+        "field_id_prefix": "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?_", "type": "Yes/No"
+    },
+    "EBT Representative Name": {
+        "field_id": "Authorized Rep for EBT Transactions - Name of Person", "type": "Text Field"
+    },
+    "EBT Representative Phone": {
+        "field_id": "Authorized Rep for EBT Transactions - Phone Number", "type": "Text Field"
+    },
+    "EBT Representative Address": {
+        "field_id": "Authorized Rep for EBT Transactions - Address", "type": "Text Field"
+    }
+    #
     
-    
-
+   
 }
+
+
 
 def map_fields(json_data):
     mapped_data = {}
+    # Check for permission before filling out the contact details for each section
+    permission_to_contact_assisting = json_data.get("Do you want to give us permission to contact a person or agency if we cannot reach you by phone?", {}).get("value") == "Yes"
+    permission_to_speak_with_dta = json_data.get("Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?", {}).get("value") == "Yes"
+    permission_to_act_on_behalf = json_data.get("Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?", {}).get("value") == "Yes"
+    permission_for_ebt_transactions = json_data.get("Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?", {}).get("value") == "Yes"
+
     for key, values in json_data.items():
         field_info = key_to_field_info.get(key)
         if not field_info:
             continue
 
-        # Handle NAME here as 
+        # Map Yes/No fields first to determine permissions
+        if field_info["type"] == "Yes/No":
+            yes_field_id = f"{field_info['field_id_prefix']}Yes"
+            no_field_id = f"{field_info['field_id_prefix']}No"
+            if values["value"] == "Yes":
+                mapped_data[yes_field_id] = {"value": "x", "type": "Checkbox"}
+            else:
+                mapped_data[no_field_id] = {"value": "x", "type": "Checkbox"}
+            # Skip mapping contact fields if permission is not granted
+            if key in [
+                "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?",
+                "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?",
+                "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?",
+                "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?"
+            ] and values["value"] == "No":
+                continue
+
+        # Then handle other fields based on the permissions
+        if field_info["type"] == "Text Field":
+            if (key.startswith("Assisting") and not permission_to_contact_assisting) or \
+               (key.startswith("DTA Agent") and not permission_to_speak_with_dta) or \
+               (key.startswith("Representative") and not permission_to_act_on_behalf) or \
+               (key.startswith("EBT Representative") and not permission_for_ebt_transactions):
+                continue
+            else:
+                mapped_data[field_info["field_id"]] = {"value": values["value"], "type": "Text Field"}
+        
+        # Handle NAME here as special case
         if key == "Name":
             names = values["value"].split()
             first_name = names[0]
@@ -126,4 +213,5 @@ def map_fields(json_data):
                     mapped_data[option_id] = {"value": "", "type": "Checkbox"}
 
     return mapped_data
+
 

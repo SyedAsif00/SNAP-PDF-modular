@@ -66,7 +66,7 @@ sample_data = {
         "type": "Yes/No"
     },
     "Social Security Number": {
-        "value": "",
+        "value": "737267",
         "type": "Text Field"
     },
     "Date of Birth": {
@@ -153,10 +153,10 @@ sample_data = {
         "value": "Yes",
         "type": "Yes/No"
     },
-    "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
-        "value": "Yes",
-        "type": "Yes/No"
-    },
+    # "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
+    #     "value": "",
+    #     "type": "Yes/No"
+    # },
     "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {
         "value": "Yes",
         "type": "Yes/No"
@@ -169,5 +169,79 @@ sample_data = {
         "value": "Yes",
         "type": "Yes/No"
     },
+    
+    ### assissting with application
+
+
+   "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
+        "value": "No",  
+        "type": "Yes/No"
+    },
+    "Assisting Person or Agency Name": {"value": "abc", "type": "Text Field"},
+    "Assisting Person or Agency Phone": {"value": "123-456-7890", "type": "Text Field"},
+    "Assisting Person or Agency Address": {"value": "abc street", "type": "Text Field"},
+    ###
+    
+
+    ## authorize to release information
+
+    "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {
+        "value": "No",
+        "type": "Yes/No"
+    },
+    "DTA Agent Name": {
+        "value": "xyz",
+        "type": "Text Field"
+    },
+    "DTA Agent Phone": {
+        "value": "555-123-4567",
+        "type": "Text Field"
+    },
+    "DTA Agent Address": {
+        "value": "def street ",
+        "type": "Text Field"
+    },
+    ### 
+
+    
+   # authorized representative for certification
+
+    "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?": {
+        "value": "No",
+        "type": "Yes/No"
+    },
+    "Representative Name": {
+        "value": "abc",
+        "type": "Text Field"
+    },
+    "Representative Phone": {
+        "value": "887-2232-3",
+        "type": "Text Field"
+    },
+    "Representative FEIN": {
+        "value": "82",
+        "type": "Text Field"
+    },
+    ##
+
+    # authorized representative for EBT transactions
+
+    "Do you want to give someone you trust permission to get an EBT card to food shop for you using your SNAP benefits?": {
+        "value": "No",
+        "type": "Yes/No"
+    },
+    "EBT Representative Name": {
+        "value": "xyz",
+        "type": "Text Field"
+    },
+    "EBT Representative Phone": {
+        "value": "555-987-6543",
+        "type": "Text Field"
+    },
+    "EBT Representative Address": {
+        "value": "abcdef street ",
+        "type": "Text Field"
+    },
+    #
     
 }
