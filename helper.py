@@ -107,8 +107,23 @@ key_to_field_info = {
     },
     "EBT Representative Address": {
         "field_id": "Authorized Rep for EBT Transactions - Address", "type": "Text Field"
-    }
+    } ,
+
     #
+    "Has anyone received SNAP benefits outside of MA within past 30 days?": {"field_id_prefix": "Has anyone received SNAP benefits outside of MA within past 30 days?_", "type": "Yes/No"},
+    "Anyone receiving SNAP benefit": {"field_id": "Has anyone recieved SNAP benefits outside Massachusetts within the past 30 days? If yes, who?", "type": "Text Field"},
+    "Is anyone in a training program at least 80 hours per month?": {"field_id_prefix": "Is anyone in a training program at least 80 hours per month?_", "type": "Yes/No"},
+    "Training Program Name": {"field_id": "If yes, who?1", "type": "Text Field"},
+    "Training Program Name_2": {"field_id": "If yes, who?2", "type": "Text Field"},
+    "Is anyone working in exchange for goods and services (in-kind work)?": {"field_id_prefix": "Is anyone working in exchange for goods and services (in-kind work)?_", "type": "Yes/No"},
+    "In-Kind Work Name": {"field_id": "If yes, who?3", "type": "Text Field"},
+    "In-Kind Work Name_4": {"field_id": "If yes, who?4", "type": "Text Field"},
+    "Is anyone doing an unpaid internship?": {"field_id_prefix": "Is anyone doing an unpaid internship?_", "type": "Yes/No"},
+    "Internship Name": {"field_id": "If yes, who?5", "type": "Text Field"},
+    "Internship Name_6": {"field_id": "If yes, who?6", "type": "Text Field"},
+    "Is anyone volunteering?": {"field_id_prefix": "Is anyone volunteering?_", "type": "Yes/No"},
+    "Volunteer Name": {"field_id": "If yes, who?7", "type": "Text Field"},
+    "Volunteer Name_8": {"field_id": "If yes, who?8", "type": "Text Field"},
     
    
 }
@@ -118,6 +133,12 @@ key_to_field_info = {
 def map_fields(json_data):
     mapped_data = {}
     # Check for permission before filling out the contact details for each section
+
+    permission_to_anyone_training_80 = json_data.get("Is anyone in a training program at least 80 hours per month?", {}).get("value") == "Yes"
+    permission_to_working_exchange_goods = json_data.get("Is anyone working in exchange for goods and services (in-kind work)?", {}).get("value") == "Yes"
+    permission_to_anyone_unpaid_internship = json_data.get("Is anyone doing an unpaid internship?", {}).get("value") == "Yes"
+    permission_to_anyone_volunteering = json_data.get("Is anyone volunteering?", {}).get("value") == "Yes"
+    permission_to_anyone_volunteering = json_data.get("Has anyone received SNAP benefits outside of MA within past 30 days?", {}).get("value") == "Yes"
     permission_to_contact_assisting = json_data.get("Do you want to give us permission to contact a person or agency if we cannot reach you by phone?", {}).get("value") == "Yes"
     permission_to_speak_with_dta = json_data.get("Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?", {}).get("value") == "Yes"
     permission_to_act_on_behalf = json_data.get("Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?", {}).get("value") == "Yes"
@@ -138,6 +159,11 @@ def map_fields(json_data):
                 mapped_data[no_field_id] = {"value": "x", "type": "Checkbox"}
             # Skip mapping contact fields if permission is not granted
             if key in [
+                "Is anyone in a training program at least 80 hours per month?",
+                "Is anyone working in exchange for goods and services (in-kind work)?",
+                "Is anyone doing an unpaid internship?",
+                "Is anyone volunteering?",
+                "Has anyone received SNAP benefits outside of MA within past 30 days?",
                 "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?",
                 "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?",
                 "Do you want to give an agency or someone you trust permission to sign forms, report changes, complete interviews, and talk about your case with us?",
@@ -147,7 +173,11 @@ def map_fields(json_data):
 
         # Then handle other fields based on the permissions
         if field_info["type"] == "Text Field":
-            if (key.startswith("Assisting") and not permission_to_contact_assisting) or \
+            if (key.startswith("Training Program Name") and not permission_to_anyone_training_80) or \
+               (key.startswith("In-Kind Work Name") and not permission_to_working_exchange_goods) or \
+               (key.startswith("Internship Name") and not permission_to_anyone_unpaid_internship) or \
+               (key.startswith("Volunteer Name") and not permission_to_anyone_volunteering) or \
+               (key.startswith("Assisting") and not permission_to_contact_assisting) or \
                (key.startswith("DTA Agent") and not permission_to_speak_with_dta) or \
                (key.startswith("Representative") and not permission_to_act_on_behalf) or \
                (key.startswith("EBT Representative") and not permission_for_ebt_transactions):

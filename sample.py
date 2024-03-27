@@ -149,14 +149,8 @@ sample_data = {
         "value": "Yes",
         "type": "Yes/No"
     },
-    "Has anyone received SNAP benefits outside of MA within past 30 days?": {
-        "value": "Yes",
-        "type": "Yes/No"
-    },
-    # "Do you want to give us permission to contact a person or agency if we cannot reach you by phone?": {
-    #     "value": "",
-    #     "type": "Yes/No"
-    # },
+    
+   
     "Do you want to give a person or agency permission to speak with DTA and get relevant confidential information about your case?": {
         "value": "Yes",
         "type": "Yes/No"
@@ -251,6 +245,86 @@ sample_data = {
         "value": "789 Oak Avenue",
         "type": "Text Field"
     },
-    #
+
+
+    "Is anyone in a training program at least 80 hours per month?": {
+    "value": "No",
+    "type": "Yes/No"
+    },
+
+    "Is anyone in a training program at least 80 hours per month?": {
+    "value": "No",
+    "type": "Yes/No"
+    },
+ 
+    "Training Program Name": {
+     "value": "John Doe",
+     "type": "Text Field"
+     },
+
+
+    "Training Program Name_2": {
+     "value": "John Doe",
+     "type": "Text Field"
+     },
+
+    "Is anyone working in exchange for goods and services (in-kind work)?": {
+     "value": "No",
+     "type": "Yes/No"
+    },
+
+    "In-Kind Work Name": {
+     "value": "Jane Doe",
+     "type": "Text Field"
+    } ,
+
+
+    "In-Kind Work Name_4": {
+     "value": "Jane Doe",
+     "type": "Text Field"
+    } ,
+
+    "Is anyone doing an unpaid internship?": {
+      "value": "Yes",
+      "type": "Yes/No"
+    },
+
+
+
+    "Internship Name": {
+     "value": "Alex Smith",
+     "type": "Text Field"
+    },
+    "Internship Name_6": {
+     "value": "Alex Smith",
+     "type": "Text Field"
+    },
+
+    "Is anyone volunteering?": {
+     "value": "Yes",
+     "type": "Yes/No"
+    },
+    
+
+    "Volunteer Name": {
+     "value": "Emily Johnson",
+     "type": "Text Field"
+    },
+    "Volunteer Name_8": {
+     "value": "Emily Johnson",
+     "type": "Text Field"
+    },
+   
+   "Has anyone received SNAP benefits outside of MA within past 30 days?": {
+        "value": "Yes",
+        "type": "Yes/No"
+    },
+    
+    "Anyone receiving SNAP benefit" : {
+        "value" : "abdefgc",
+        "type": "Text Field"
+    }
+ 
+
     
 }
